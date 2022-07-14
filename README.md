@@ -32,7 +32,7 @@
     - 개발자가 마크다운을 사랑하는 이유 중 하나
     - 사용하기
 - **링크(link)** **[string](url)**: string은 보여지는 부분, url은 연결할 곳을 나타내요
-- **이미지(image)** **![string](https://avatars.githubusercontent.com/u/83000975?v=4)** : 링크와 비슷하지만 이미지를 보여주는 명령어
+- **이미지(image)** **![string](https://user-images.githubusercontent.com/83000975/178937273-e839022b-474b-4b83-be17-368a0a840092.jpg)** : 링크와 비슷하지만 이미지를 보여주는 명령어
 - **텍스트 강조(Text Emphasis)** : **순서대로 굵게(**, __)**, *기울임*(*, _), ~~취소선~~(~~)을 이용해 텍스트를 강조
     - 취소선은 프로그램에 따라 지원
 - **수평선(horizontal line)** (***, ___, —-): 가로로 긴 수평선을 작성
