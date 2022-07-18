@@ -8,3 +8,4 @@ for i in range(1, T+1):
         print('#%d %d' %(i, total//10+1))
     else:
         print('#%d %d' %(i, total//10))
+        
