@@ -23,6 +23,9 @@
 [2022/07/14~2022/07/15]  
 [Git](https://github.com/junhong625/TIL/blob/master/etc/Git.md)  
 [Markdown](https://github.com/junhong625/TIL/blob/master/etc/Markdown.md)  
-
+  
 [2022/07/16~2022/07/17]  
 [SWEA 알고리즘 풀이](https://github.com/junhong625/TIL/tree/master/SWEA)
+  
+[2022/07/18]  
+[Python 기초](https://github.com/junhong625/TIL/blob/master/Python/Python_%EA%B8%B0%EC%B4%88.md)  
