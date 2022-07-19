@@ -948,7 +948,7 @@ print(type(dict_b)) # <class 'dict'>
 ### 컨테이너 형 변환
 
 - 컨테이너 간의 형 변환은 아래와 같이 가능
-
+![](https://user-images.githubusercontent.com/18046097/61180466-a6a67780-a651-11e9-8c0a-adb9e1ee04de.png)
 ---
 
 # 프로그램 구성 단위
