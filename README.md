@@ -30,5 +30,5 @@
 [2022/07/18]  
 [Python 기초](https://github.com/junhong625/TIL/blob/master/Python/Python_%EA%B8%B0%EC%B4%88.md)  
   
-[2022/07/19]
+[2022/07/19]  
 [자료구조- 배열(Array)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%EB%B0%B0%EC%97%B4(Array).md)
