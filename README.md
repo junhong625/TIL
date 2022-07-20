@@ -28,7 +28,18 @@
 [SWEA 알고리즘 풀이](https://github.com/junhong625/TIL/tree/master/SWEA)
   
 [2022/07/18]  
-[Python 기초](https://github.com/junhong625/TIL/blob/master/Python/Python_%EA%B8%B0%EC%B4%88.md)  
-  
+[[Python] 1. 학습 준비 & 사용법](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%201.%20%ED%95%99%EC%8A%B5%20%EC%A4%80%EB%B9%84%20%26%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)  
+[[Python] 2. 프로그래밍 기초](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%202.%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88.md)
+[[Python] 3. 자료형 & 연산자](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%203.%20%EC%9E%90%EB%A3%8C%ED%98%95%20%26%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+[[Python] 4. 컨테이너](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%204.%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
+[[Python] 5. 형변환](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%205.%20%ED%98%95%EB%B3%80%ED%99%98.md)
+
+
 [2022/07/19]  
-[자료구조- 배열(Array)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%EB%B0%B0%EC%97%B4(Array).md)
+[[자료구조] 배열(Array)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%EB%B0%B0%EC%97%B4(Array).md)
+  
+[2022/07/20]  
+[[Python] 6. 제어문](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%206.%20%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
+[[Python] 7. 함수](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%207.%20%ED%95%A8%EC%88%98.md)
+[[Python] 8. Python의 범위(Scope)](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%208.%20Python%EC%9D%98%20%EB%B2%94%EC%9C%84(Scope).md)
+[[Python] 9. 모듈 & 패키지 & 가상환경](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%209.%20%EB%AA%A8%EB%93%88%20%26%20%ED%8C%A8%ED%82%A4%EC%A7%80%20%26%20%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD.md)
