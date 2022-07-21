@@ -44,6 +44,6 @@
 [[Python] 8. Python의 범위(Scope)](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%208.%20Python%EC%9D%98%20%EB%B2%94%EC%9C%84(Scope).md)  
 [[Python] 9. 모듈 & 패키지 & 가상환경](https://github.com/junhong625/TIL/blob/master/Python/%5Bpython%5D%209.%20%EB%AA%A8%EB%93%88%20%26%20%ED%8C%A8%ED%82%A4%EC%A7%80%20%26%20%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD.md)  
   
-[2022/07/21]
+[2022/07/21]  
 [[자료구조] 큐(que)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%ED%81%90(que).md)  
   
