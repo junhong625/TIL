@@ -21,11 +21,11 @@
 - [[공공데이터]](https://data.go.kr/)사이트를 통해 공공데이터 이용 가능
 
 [2022/07/14~2022/07/15]  
-[Git](https://github.com/junhong625/TIL/blob/master/etc/Git.md)  
-[Markdown](https://github.com/junhong625/TIL/blob/master/etc/Markdown.md)  
+[[Git]](https://github.com/junhong625/TIL/blob/master/etc/Git.md)  
+[[Markdown]](https://github.com/junhong625/TIL/blob/master/etc/Markdown.md)  
   
 [2022/07/16~2022/07/17]  
-[SWEA 알고리즘 풀이](https://github.com/junhong625/TIL/tree/master/SWEA)
+[[SWEA 알고리즘 풀이]](https://github.com/junhong625/TIL/tree/master/SWEA)
   
 [2022/07/18]  
 [[Python] 1. 학습 준비 & 사용법](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%201.%20%ED%95%99%EC%8A%B5%20%EC%A4%80%EB%B9%84%20%26%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)  
@@ -46,4 +46,8 @@
   
 [2022/07/21]  
 [[자료구조] 큐(que)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%ED%81%90(que).md)  
+[[Toy_PJT]](https://github.com/junhong625/TIL/tree/master/Algorithm/Toy_PJT)  
+  
+[2022/07/22]  
+[[SWEA 알고리즘 풀이]](https://github.com/junhong625/TIL/tree/master/SWEA)
   
