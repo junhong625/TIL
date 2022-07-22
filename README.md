@@ -46,7 +46,8 @@
   
 [2022/07/21]  
 [[자료구조] 큐(que)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%ED%81%90(que).md)  
-[[Toy_PJT]](https://github.com/junhong625/TIL/tree/master/Algorithm/Toy_PJT)  
+[[Toy_PJT]updown](https://github.com/junhong625/TIL/blob/master/Algorithm/Toy_PJT/updown.py)  
+[[Toy_PJT]vending_machine](https://github.com/junhong625/TIL/blob/master/Algorithm/Toy_PJT/vending_machine.py)
   
 [2022/07/22]  
 [[SWEA 알고리즘 풀이]](https://github.com/junhong625/TIL/tree/master/SWEA)
