@@ -1,3 +1,5 @@
+# Python_8 🖥️
+
 # Python의 범위(Scope)
 
 - 함수는 코드 내부에 local scope를 생성하며, 그외의 공간인 global scope로 구분
