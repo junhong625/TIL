@@ -51,4 +51,12 @@
   
 [2022/07/22]  
 [[SWEA 알고리즘 풀이]](https://github.com/junhong625/TIL/tree/master/SWEA)
+
+[2022/07/23]  
+[[자료구조] 스택(stack)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%EC%8A%A4%ED%83%9D(stack).md)
+  
+[2022/07/24]  
+[[Python] 한 번씩 짚고 넘어가야 할 문법](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%20%ED%95%9C%20%EB%B2%88%EC%94%A9%20%EC%A7%9A%EA%B3%A0%20%EB%84%98%EC%96%B4%EA%B0%80%EC%95%BC%ED%95%A0%20%EB%AC%B8%EB%B2%95.md)  
+[[모코코] 1주차 배열(Array)](https://github.com/junhong625/MOCOCO/tree/master/%5B1%EC%A3%BC%EC%B0%A8%5D%20%EB%B0%B0%EC%97%B4(array))  
+
   
