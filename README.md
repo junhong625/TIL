@@ -61,3 +61,9 @@
   
 [2022/07/25]  
 [[Python] 자료 구조(Data Structure)](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%2010.%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0(Data%20Structure).md)  
+  
+[2022/07/26]  
+[[Toy_PHT] battleship](https://github.com/junhong625/TIL/blob/master/Toy_PJT/battleship.py)  
+[[LeetCode] No.561](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20561%EB%B2%88%5D%20Array%20Partition.py)  
+  
+  
