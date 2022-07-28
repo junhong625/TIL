@@ -58,12 +58,21 @@
 [2022/07/24]  
 [[Python] 한 번씩 짚고 넘어가야 할 문법](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%20%ED%95%9C%20%EB%B2%88%EC%94%A9%20%EC%A7%9A%EA%B3%A0%20%EB%84%98%EC%96%B4%EA%B0%80%EC%95%BC%ED%95%A0%20%EB%AC%B8%EB%B2%95.md)  
 [[모코코] 1주차 배열(Array)](https://github.com/junhong625/MOCOCO/tree/master/%5B1%EC%A3%BC%EC%B0%A8%5D%20%EB%B0%B0%EC%97%B4(array))  
+[[LeetCode] No.1](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%201%EB%B2%88%5D%20Two%20Sum.py)   
   
 [2022/07/25]  
 [[Python] 자료 구조(Data Structure)](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%2010.%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0(Data%20Structure).md)  
+[[LeetCode] No.42](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%2042%EB%B2%88%5D%20Trapping%20Rain%20Water.py)    
   
 [2022/07/26]  
 [[Toy_PHT] battleship](https://github.com/junhong625/TIL/blob/master/Toy_PJT/battleship.py)  
+[[LeetCode] No.15](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20561%EB%B2%88%5D%20Array%20Partition.py)   
+  
+[2022/07/27]  
+[[Python] 객체 지향 프로그래밍(OOP)](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%2011.%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP).md)  
+[[Python] 예외 처리](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%2012.%20%EC%98%88%EC%99%B8%20%EC%B2%98%EB%A6%AC.md)  
 [[LeetCode] No.561](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20561%EB%B2%88%5D%20Array%20Partition.py)  
   
-  
+[2022/07/28]
+[[Toy_PJT] Lotto](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Lotto)  
+[[LeetCode] No.121](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20121%EB%B2%88%5D%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)
