@@ -73,6 +73,6 @@
 [[Python] 예외 처리](https://github.com/junhong625/TIL/blob/master/Python/%5BPython%5D%2012.%20%EC%98%88%EC%99%B8%20%EC%B2%98%EB%A6%AC.md)  
 [[LeetCode] No.561](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20561%EB%B2%88%5D%20Array%20Partition.py)  
   
-[2022/07/28]
+[2022/07/28]  
 [[Toy_PJT] Lotto](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Lotto)  
 [[LeetCode] No.121](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20121%EB%B2%88%5D%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)
