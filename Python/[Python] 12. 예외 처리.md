@@ -59,13 +59,13 @@
     - EOL (End of Line)
         
         ```python
-        print('hello # SyntaxError: EOL while scanning string literal
+        print('hello') # SyntaxError: EOL while scanning string literal
         ```
         
     - EOF (End of File)
         
         ```python
-        print( # SyntaxError: unexpected EOF while parsing
+        print() # SyntaxError: unexpected EOF while parsing
         ```
         
 

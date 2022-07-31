@@ -193,7 +193,7 @@ for student in grades:
 - enumerate()
     - iterate 컨테이너 사용
     - 인덱스와 객체를 쌍으로 담은 열거형(enumerate) 객체 반환
-        - (index, value) 형태의 tuple로 구성된 열거 객체를 반members = ['민수', '영희', '철수']환
+        - (index, value) 형태의 tuple로 구성된 열거 객체를 반환
 
 ```python
 members = ['민수', '영희', '철수']
