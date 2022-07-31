@@ -81,4 +81,8 @@
 [[Baekjoon] 1단계_입출력과 사칙연산 풀이](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%5B1%EB%8B%A8%EA%B3%84%5D%20%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0)  
 [[Baekjoon] 2단계_조건문 풀이](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%5B2%EB%8B%A8%EA%B3%84%5D%20%EC%A1%B0%EA%B1%B4%EB%AC%B8)  
 [[Baekjoon] 3단계_반복문 풀이](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%5B3%EB%8B%A8%EA%B3%84%5D%20%EB%B0%98%EB%B3%B5%EB%AC%B8)  
-[[Baekjoon] 4단계_1차원 배열 풀이](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%5B4%EB%8B%A8%EA%B3%84%5D%201%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4)  
+[[Baekjoon] 4단계_1차원 배열 풀이](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%5B4%EB%8B%A8%EA%B3%84%5D%201%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4) 
+
+[2022/07/30]  
+[[Baekjoon] 5단계_함수](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%5B5%EB%8B%A8%EA%B3%84%5D%20%ED%95%A8%EC%88%98)  
+  
