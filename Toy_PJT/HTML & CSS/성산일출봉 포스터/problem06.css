@@ -1,0 +1,89 @@
+/* 주어진 코드는 수정하지 않습니다. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 200px auto;
+}
+
+/* 아래에 코드를 작성합니다. */
+/* 1. h4 태그의 글자 크기는 20px, 굵기는 bold, 폰트는 Arial 입니다.  */
+h4 {
+    font: 20px bold Arial;
+}
+/* 2. p 태그의 폰트는 Arial 입니다. */
+p {
+    font-style: Arial;
+}
+/* 3. 카드의 너비는 700px, border 굵기는 2px, 스타일은 dashed, border의 색은 black 입니다. */
+.card {
+    width: 700px;
+    border: 2px dashed black;
+}
+/* 4. "오늘의 명소" 글자는 가운데 정렬합니다. 배경색은 자유롭게 작성합니다. */
+.card-nav {
+    text-align: center;
+    background-color: skyblue;
+}
+/* 5. border와 content 사이의 간격은 18px 입니다. */
+.card-header {
+    margin: 18px;
+}
+/* 6. 이미지의 너비는 부모 태그 너비의 100%를 차지하고, 높이는 330px 입니다. */
+.card-img {
+    width: 100%;
+    height: 330px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+/* 7-1. 이미지 설명란의 높이는 70px이고, 배경색은 자유롭게 작성합니다. */
+.card-img-description {
+    height: 70px;
+    background-color: skyblue;
+}
+/* 7-2. 이미지 설명란의 글자의 색상은 흰색이며 수직, 수평 중앙에 정렬 되어 있습니다. */
+.card-img-description {
+    color: white;
+    text-align: center;
+    /* line-height: 70px; */
+    padding-top: 1%;
+}
+/* 8. border와 content사이의 간격은 18px 입니다. */
+.card-body {
+    margin: 18px;
+}
+/* 9-1. 본문 제목은 왼쪽 끝에 위치합니다. */
+.card-body-title > h4 {
+    text-align: left;
+    display: inline;
+}
+/* .card-body-title {
+    display: flex;
+    justify-content: space-between;
+} */
+/* 9-2. 날짜는 본문 제목의 오른쪽 끝에 위치합니다. */
+.card-body-title > p {
+    float: right;
+}
+/* 10. 본문 내용의 상단 여백은 10px이며, border와 content 사이 간격은 10px 입니다. 배경 색상은 자유롭게 작성합니다. */
+.card-body-content {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(198, 218, 217);
+
+}
+/* 11-1. footer의 글자는 우측 끝에 정렬되며, 글자색은 흰색입니다. */
+.card-footer {
+    text-align: right;
+    color: white;
+}
+/* 11-2. footer의 border와 content사이의 간격은 10px 이고, 배경 색상은 자유롭게 작성합니다. */
+.card-footer {
+    background-color: skyblue;
+    padding: 10px;
+
+}
