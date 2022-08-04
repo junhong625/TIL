@@ -35,4 +35,4 @@ class Solution(object):
             dummy.next = odd_node
             
         # result는 새로 생성한 연결리스트로 시작점이 0이기에 next를 해야 올바른 정답 출력
-        return result.next
+        return result.next 
