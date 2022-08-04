@@ -46,8 +46,8 @@
   
 [2022/07/21]  
 [[자료구조] 큐(que)](https://github.com/junhong625/TIL/blob/master/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20%ED%81%90(que).md)  
-[[Toy_PJT] updown](https://github.com/junhong625/TIL/blob/master/Algorithm/Toy_PJT/updown.py)  
-[[Toy_PJT] vending_machine](https://github.com/junhong625/TIL/blob/master/Algorithm/Toy_PJT/vending_machine.py)
+[[Toy_PJT] updown](https://github.com/junhong625/TIL/blob/master/Toy_PJT/Python/updown.py)  
+[[Toy_PJT] vending_machine](https://github.com/junhong625/TIL/blob/master/Toy_PJT/Python/vending_machine.py)
   
 [2022/07/22]  
 [[SWEA 알고리즘 풀이]](https://github.com/junhong625/TIL/tree/master/SWEA)
@@ -65,7 +65,7 @@
 [[LeetCode] No.42](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%2042%EB%B2%88%5D%20Trapping%20Rain%20Water.py)    
   
 [2022/07/26]  
-[[Toy_PHT] battleship](https://github.com/junhong625/TIL/blob/master/Toy_PJT/battleship.py)  
+[[Toy_PJT] battleship](https://github.com/junhong625/TIL/blob/master/Toy_PJT/Python/battleship.py)  
 [[LeetCode] No.15](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20561%EB%B2%88%5D%20Array%20Partition.py)   
   
 [2022/07/27]  
@@ -74,7 +74,7 @@
 [[LeetCode] No.561](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20561%EB%B2%88%5D%20Array%20Partition.py)  
   
 [2022/07/28]  
-[[Toy_PJT] Lotto](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Lotto)  
+[[Toy_PJT] Lotto](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Python/Lotto)  
 [[LeetCode] No.121](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20121%EB%B2%88%5D%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)  
   
 [2022/07/29]  
@@ -94,3 +94,10 @@
 [[HTML & CSS] HTML](https://github.com/junhong625/TIL/blob/master/HTML%20%26%20CSS/%5BHTML%20%26%20CSS%5D%20HTML.md)  
 [[HTML & CSS] CSS](https://github.com/junhong625/TIL/blob/master/HTML%20%26%20CSS/%5BHTML%20%26%20CSS%5D%20CSS.md)   
   
+[2022/08/02]  
+[[Toy_PJT] 성산일출봉 포스터](https://github.com/junhong625/TIL/tree/master/Toy_PJT/HTML%20%26%20CSS/%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89%20%ED%8F%AC%EC%8A%A4%ED%84%B0)  
+[[LeetCode] No.21](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%2021%EB%B2%88%5D%20Merge%20Two%20Sorted%20Lists.py)  
+[[LeetCode] No.206](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%20206%EB%B2%88%5D%20Reverse%20Linked%20List.py)  
+   
+[2022/08/03]  
+[[LeetCode] No.2](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%202%EB%B2%88%5D%20Add%20Two%20Numbers.py)  
