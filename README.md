@@ -105,3 +105,5 @@
   
 [2022/08/04]  
 [[LeetCode] No.24](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%5BLeetCode%2024%EB%B2%88%5D%20Swap%20Nodes%20in%20Pairs.py)  
+[[LeetCode] No.2](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/%5BLeetCode%202%EB%B2%88%5D%20Add%20Two%20Numbers.py)  
+[[LeetCode] No.328](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/%5BLeetCode%20328%EB%B2%88%5D%20Odd%20Even%20Linked%20List.py)  
