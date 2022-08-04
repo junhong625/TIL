@@ -11,6 +11,7 @@
 h1 { /*선택자(Selector)*/
 	color: blue; /*선언(Declaration)*/
 	font-size: 15px; /*속성(Property): 값(value)*/
+}
 ```
 
 - CSS 구문은 **선택자**를 통해 스타일을 지정할 HTML 요소를 선택
@@ -253,3 +254,94 @@ h3, h4 {
         - 스크롤 시에도 항상 같은 곳에 위치
 - **sticky** : 스크롤에 따라 **static** → **fixed**로 변경
     - 속성을 적용한 박스는 평소에 문서 안에서 `position: static` 상태와 같이 일반적인 흐름에 따르지만 스크롤 위치가 임계점에 이르면 `position: fixed`와 같이 박스를 화면에 고정할 수 있는 속성
+
+# CSS layout techniques
+
+- Display
+- Position
+- Float(CSS1, 1996)
+- Flexbox(2012)
+- Grid
+- 기타
+    - Responsive Web Design(2010), media Queries(2012)
+
+## Float
+
+- 박스를 왼쪽 혹은 오른쪽으로 이동 시켜 텍스트를 포함 인라인 요소들이 주변을 감싸도록 함
+- 요소가 Normal flow를 벗어나도록 함
+
+### 속성
+
+- `none`: 기본값
+- `left` : 요소를 왼쪽으로 띄움
+- `right` : 요소를 오른쪽으로 띄움
+
+## Flexbox
+
+> [felxboxfroggy](http://flexboxfroggy.com/#ko)에서 자유롭게 테스트 가능
+> 
+
+### CSS Flexible Box Layout
+
+- 행과 열 형태로 아이템들을 배치하는 1차원 레이아웃 모델
+- 축
+    - main axis (메인 축)
+    - cross axis (교차 축)
+- 구성 요소
+    - Flex Container(부모 요소) → 부모 요소에 Flex를 적용 시켜야 함
+    - Flex Item(자식 요소)
+    
+
+### Flex 속성
+
+- 배치 설정
+    - flex-direction
+        - **메인 축** 기준 방향 설정
+        - 역방향의 경우 HTML 태그 선언 순서와 시각적으로 다르니 유의 (웹 접근성에 영향)
+    - flex-wrap
+        - 아이템이 컨테이너를 벗어나는 경우 해당 영역 내에 배치되도록 설정
+        - 기본적으로 컨테이너 영역을 벗어나지 않도록 함
+            - `wrap` : 여백이 생기더라도 아이템의 크기에 맞지 않다면 다음 줄로 배치
+            - `nowrap` : 여백 없이 크기를 끼워 맞춤(한 줄에 배치)
+            - (`wrap`, `nowrap`) `reverse`로 역순 배치
+    - flex-flow
+        - `flex-direction`과 `flex-wrap`의 shorthand
+        - `flex-direction`과 `flex-wrap`의  값을 차례로 설정
+- 공간 나누기
+    - `justify-content` (메인 축)
+    - `align-content` (교차 축)
+- 정렬
+    - `align-items`(모든 아이템을 교차 축 기준으로)
+    - `align-self`(개별 아이템)
+- justify-content
+    
+    > **메인 축**을 기준으로 공간 배분
+    > 
+    - `flex-start` : 축의 시작점에 배치
+    - `flex-end` : 축의 끝에 배치(요소의 순서는 바뀌지 않음)
+    - `center` : 축 중앙에 위치
+    - `space-between` : 양 끝까지 균일하게 공간 배분
+    - `space-around` : 각 요소의 사이의 여백 똑같이(끝과 요소 사이의 공간 배분도 똑같이)
+    - `space-evenly` : 각 요소의 좌우 여백이 똑같이(각 요소 좌우에 1씩 배분 되기에 요소 사이는 2가 됨)
+- align-content
+    
+    > **교차 축**을 기준으로 공간 배분(아이템이 한 줄로 배치되는 경우 확인할 수 없음
+    > 
+    - 축이 달라질 뿐, **justify**의 모든 설정과 같음
+- align-items
+    
+    > 모든 아이템을 **교차 축**을 기준으로 정렬
+    > 
+    - `stretch` : 교차 축 세로로 모두 채움
+    - `flex-start` : 교차 축 시작점에 정렬
+    - `flex-end` : 교차 축 끝에 정렬
+    - `center` : 교차 축 중앙에 정렬
+    - `baseline` : text baseline에 맞춰 정렬
+- align-self
+    
+    > 개별 아이템을 **교차 축**을 기준으로 정렬
+    > 
+    - 포함되는 아이템이 다를 뿐, **align-items**의 모든 설정과 같음
+- 기타 속성
+    - **flex-grow** : 남은 영역을 아이템에 분배
+    - **order** : 배치 순서
