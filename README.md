@@ -114,4 +114,7 @@
 [[Baekjoon] No.2116](https://github.com/junhong625/TIL/blob/master/Algorithm/IM%EB%93%B1%EA%B8%89%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%B6%94%EC%B2%9C%20%EB%AC%B8%EC%A0%9C/%5BBaekjoon%5D%20No.2116.py)  
   
 [2022/08/06]  
-[[LeetCode] No.23](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/%5BLeetCode%2023%EB%B2%88%5D%20Merge%20k%20Sorted%20Lists.py)  
+[[LeetCode] No.23](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/%5BLeetCode%2023%EB%B2%88%5D%20Merge%20k%20Sorted%20Lists.py)
+
+[2022/08/07]  
+[[LeetCode] No.20](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D/%5BLeetCode%2020%EB%B2%88%5D%20Valid%20Parentheses.py)  
