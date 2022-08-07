@@ -64,11 +64,11 @@
 
 ### head 예시
 
-- <title> : 브라우저 상단 타이틀
-- <meta> : 문서 레벨 메타데이터 요소
-- <link> : 외부 리소스 연결 요소 (CSS 파일, favicon 등)
-- <script> : 스크립트 요소(JavaScript 파일/코드 등)
-- <style> : CSS 직접 작성
+- `title` : 브라우저 상단 타이틀
+- `meta` : 문서 레벨 메타데이터 요소
+- `link` : 외부 리소스 연결 요소 (CSS 파일, favicon 등)
+- `script` : 스크립트 요소(JavaScript 파일/코드 등)
+- `style` : CSS 직접 작성
 
 ### head 예시 : Open Graph Protocol
 
@@ -170,8 +170,8 @@
 
 ## form
 
-- <form>은 **정보(데이터)를 서버에 제출하기 위해 사용**하는 태그 → 예시) 로그인 창
-- <form> 기본 속성
+- `form`은 **정보(데이터)를 서버에 제출하기 위해 사용**하는 태그 → 예시) 로그인 창
+- `form` 기본 속성
     - action : form을 처리할 서버의 URL(데이터를 보낼 곳) → 예시) Naver, Google
     - method : form을 제출할 때 사용할 HTTP 메서드 (GET 혹은 POST)
     - enctype : method가 post인 경우 데이터의 유형
@@ -180,11 +180,11 @@
 
 ## input
 
-> <input> 요소의 동작은 type에 따라 달라짐
+> `input` 요소의 동작은 type에 따라 달라짐
 > 
 - 다양한 타입을 가지는 입력 데이터 유형과 위젯이 제공됨
 - form안에서 데이터를 입력 받는 역할을 하는 태그
-- <input> 대표적인 속성
+- `input` 대표적인 속성
     - name : form control에 적용되는 이름 (이름/값 페어로 전송됨)
     - value : form control에 적용되는 값 (이름/값 페어로 전송됨)
     - required, readonly, autofocus, autocomplete, disabled 등
