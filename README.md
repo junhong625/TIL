@@ -132,5 +132,6 @@
 [[SWEA] No.4828](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4828_min%20max.py)  
 [[SWEA] No.4834](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4834_%EC%88%AB%EC%9E%90%20%EC%B9%B4%EB%93%9C.py)  
 [[SWEA] No.4835](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4835_%EA%B5%AC%EA%B0%84%ED%95%A9.py)  
+[[LeetCode] No.739](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4835_%EA%B5%AC%EA%B0%84%ED%95%A9.py)  
 
 
