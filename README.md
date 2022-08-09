@@ -132,6 +132,6 @@
 [[SWEA] No.4828](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4828_min%20max.py)  
 [[SWEA] No.4834](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4834_%EC%88%AB%EC%9E%90%20%EC%B9%B4%EB%93%9C.py)  
 [[SWEA] No.4835](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4835_%EA%B5%AC%EA%B0%84%ED%95%A9.py)  
-[[LeetCode] No.739](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4835_%EA%B5%AC%EA%B0%84%ED%95%A9.py)  
+[[LeetCode] No.739](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%20739%EB%B2%88%5D%20Daily%20Temperatures.py)  
 
 
