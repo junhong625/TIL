@@ -118,3 +118,7 @@
 
 [2022/08/07]  
 [[LeetCode] No.20](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D/%5BLeetCode%2020%EB%B2%88%5D%20Valid%20Parentheses.py)  
+  
+[2022/08/08]
+[[Algorithm] 배열, 정렬](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%201.%20%EB%B0%B0%EC%97%B4%2C%20%EC%A0%95%EB%A0%AC.md)  
+  
