@@ -120,7 +120,7 @@
 [[LeetCode] No.20](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D/%5BLeetCode%2020%EB%B2%88%5D%20Valid%20Parentheses.py)  
   
 [2022/08/08]
-[[Algorithm] 배열, 정렬](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%201.%20%EB%B0%B0%EC%97%B4%2C%20%EC%A0%95%EB%A0%AC.md)  
+[[Algorithm] 1. 배열](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%201.%20%EB%B0%B0%EC%97%B4.md)  
 [[SWEA] No.1206](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1206_View.py)  
   
 [2022/08/09]  
@@ -135,8 +135,14 @@
 [[LeetCode] No.739](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%20739%EB%B2%88%5D%20Daily%20Temperatures.py)  
   
 [2022/08/10]  
+[[Algorithm] 2. 정렬](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%202.%20%EC%A0%95%EB%A0%AC.md)  
 [[LeetCode] No.316](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%20316%EB%B2%88%5D%20Remove%20Duplicate%20Letters.py)  
-
-
+[[LeetCode] No.225](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%20225%EB%B2%88%5D%20Implement%20Stack%20Using%20Queues.py)  
+[[LeetCode] No.232](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%20232%EB%B2%88%5D%20Implement%20Queue%20using%20Stacks.py)  
+[[SWEA] No.9386](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D1/9386_%EC%97%B0%EC%86%8D%ED%95%9C%201%EC%9D%98%20%EA%B0%9C%EC%88%98.py)  
+[[SWEA] No.1954](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/1954_%EB%8B%AC%ED%8C%BD%EC%9D%B4%20%EC%88%AB%EC%9E%90.py)  
+[[SWEA] No.9489](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/9489_%EA%B3%A0%EB%8C%80%20%EC%9C%A0%EC%A0%81.py)  
+[[SWEA] No.1209](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1209_Sum.py)  
+  
 
 
