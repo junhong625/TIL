@@ -144,5 +144,8 @@
 [[SWEA] No.9489](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/9489_%EA%B3%A0%EB%8C%80%20%EC%9C%A0%EC%A0%81.py)  
 [[SWEA] No.1209](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1209_Sum.py)  
   
+[2022/08/11]  
+[[Baekjoon] 6단계_문자열](https://github.com/junhong625/TIL/tree/master/Algorithm/Baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%20%EB%AC%B8%EC%A0%9C/%5B6%EB%8B%A8%EA%B3%84%5D%20%EB%AC%B8%EC%9E%90%EC%97%B4)  
+
 
 
