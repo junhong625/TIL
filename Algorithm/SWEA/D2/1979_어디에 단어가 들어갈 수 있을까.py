@@ -1,32 +1,34 @@
 T = int(input())
-for i in range(1, T+1):
-    raws, length = map(int, input().split())
-    table = []
-    total = 0
-    for j in range(raws):
-        raw = input().split()
-        table.append(raw)
-        count = 0
-        for k in range(raws):
-            if raw[k] == '1':
-                count += 1
-                if k == raws-1:
-                    if count == length:
-                        total += 1
+
+for t in range(1, T+1):
+    N, K = map(int,input().split())
+    arr = [list(map(int, input().split())) for _ in range(N)]
+    
+    result = 0
+    # 행에서 K 길이 단어 확인
+    for i in range(N):
+        cnt = 0
+        for j in range(N):
+            if arr[i][j] == 1:
+                cnt += 1
             else:
-                if count == length:
-                    total += 1
-                count = 0
-    for l in range(raws):
-        count = 0
-        for m in range(raws):
-            if table[m][l] == '1':
-                count += 1
-                if m == raws-1:
-                    if count == length:
-                        total += 1
+                if cnt == K:
+                    result += 1
+                cnt = 0
+        if cnt == K:
+            result += 1
+    
+    # 열에서 K 길이 단어 확인
+    for i in range(N):
+        cnt = 0
+        for j in range(N):
+            if arr[j][i] == 1:
+                cnt += 1
             else:
-                if count == length:
-                    total += 1
-                count = 0
-    print("#%d %d" %(i, total))
+                if cnt == K:
+                    result += 1
+                cnt = 0
+        if cnt == K:
+            result += 1
+
+    print(f'#{t} {result}')    
