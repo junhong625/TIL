@@ -156,5 +156,8 @@
 [[SWEA] No.4839](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4839_%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.py)  
 [[SWEA] No.4843](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/4843_%ED%8A%B9%EB%B3%84%ED%95%9C%20%EC%A0%95%EB%A0%AC.py)  
 
+[2022/08/12]  
+[[SWEA] No.1213](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1213_String.py)  
+[[SWEA] No.1221](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1221_GNS.py)  
 
 
