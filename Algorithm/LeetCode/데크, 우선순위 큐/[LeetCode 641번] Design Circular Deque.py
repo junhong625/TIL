@@ -103,4 +103,4 @@ class MyCircularDeque(object):
         """
         :rtype: bool
         """
-        return self.cnt == self.maxlen
+        return self.cnt == self.maxlen 
