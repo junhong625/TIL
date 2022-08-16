@@ -156,5 +156,15 @@
 [[SWEA] No.4839](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/4839_%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.py)  
 [[SWEA] No.4843](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/4843_%ED%8A%B9%EB%B3%84%ED%95%9C%20%EC%A0%95%EB%A0%AC.py)  
 
+[2022/08/12]  
+[[SWEA] No.1213](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1213_String.py)  
+[[SWEA] No.1221](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1221_GNS.py)  
 
-
+[2022/08/13]  
+[[LeetCode] No.32](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%2032%EB%B2%88%5D%20Longest%20Valid%20Parentheses.py)
+  
+[2022/08/14]  
+[[LeetCode] No.239](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%A4%ED%83%9D%26%20%ED%81%90/%5BLeetCode%20239%EB%B2%88%5D%20Sliding%20Window%20Maximum.py)
+  
+[2022/08/15]  
+[[LeetCode] No.641](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EB%8D%B0%ED%81%AC%2C%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/%5BLeetCode%20641%EB%B2%88%5D%20Design%20Circular%20Deque.py)
