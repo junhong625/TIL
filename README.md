@@ -157,6 +157,7 @@
 [[SWEA] No.4843](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/4843_%ED%8A%B9%EB%B3%84%ED%95%9C%20%EC%A0%95%EB%A0%AC.py)  
 
 [2022/08/12]  
+[[Algorithm] 3. 문자열](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%203.%20%EB%AC%B8%EC%9E%90%EC%97%B4.md)  
 [[SWEA] No.1213](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1213_String.py)  
 [[SWEA] No.1221](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1221_GNS.py)  
 
@@ -178,5 +179,9 @@
 [[SWEA] No.3143](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/3143_%EA%B0%80%EC%9E%A5%20%EB%B9%A0%EB%A5%B8%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%83%80%EC%9D%B4%ED%95%91.py)  
 [[SWEA] No.5432](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/5432_%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0%20%EC%9E%90%EB%A5%B4%EA%B8%B0.py)  
 
-
+[2022/08/17]    
+[[Algorithm] 4. 스택](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%204.%20%EC%8A%A4%ED%83%9D.md)  
+[[Algorithm] 5. Memoization & DP](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%205.%20Memoization%20%26%20DP.md)  
+[[Algorithm] 6. DFS](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%206.%20DFS.md)  
+[[SWEA] No.2005](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/2005_%ED%8C%8C%EC%8A%A4%EC%B9%BC%EC%9D%98%20%EC%82%BC%EA%B0%81%ED%98%95.py)  
 
