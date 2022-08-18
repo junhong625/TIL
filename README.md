@@ -186,4 +186,9 @@
 [[SWEA] No.2005](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/2005_%ED%8C%8C%EC%8A%A4%EC%B9%BC%EC%9D%98%20%EC%82%BC%EA%B0%81%ED%98%95.py)  
 [[LeetCode] No.23](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EB%8D%B0%ED%81%AC%2C%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/%5BLeetCode%2023%EB%B2%88%5D%20Merge%20k%20Sorted%20Lists.py)  
 
+[2022/08/18]    
+[[Baekjoon] No.1920](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%B3%84%20%EB%AC%B8%EC%A0%9C/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89/1920.py)  
+[[Baekjoon] No.2805](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%B3%84%20%EB%AC%B8%EC%A0%9C/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89/2805.py)  
+[[Baekjoon] No.2475](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%201/2475_%EA%B2%80%EC%A6%9D%EC%88%98.py)  
+[[Baekjoon] No.2920](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%201/2920_%EC%9D%8C%EA%B3%84.py)  
 
