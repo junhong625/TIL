@@ -28,4 +28,4 @@ for key, value in dict_num.items():
 print(round(total / N))             # 산술평균 출력
 print(sort_num[N//2])               # 중앙값 출력
 print(sorted(sort_dict[max(sort_dict)])[1] if len(sort_dict[max(sort_dict)]) > 1 else sort_dict[max(sort_dict)][0]) # 최빈값 출력
-print(sort_num[-1] - sort_num[0])   # 범위 출력
+print(sort_num[-1] - sort_num[0])   # 범위 출력 
