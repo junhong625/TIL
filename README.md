@@ -208,4 +208,6 @@
 [2022/08/20]    
 [[LeetCode] No.85](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EB%8D%B0%ED%81%AC%2C%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/Hard/%5BLeetcdoe%2085%EB%B2%88%5D%20Maximal%20Rectangle.py)  
 
+[2022/08/21]    
+[[LeetCode] No.706](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20706%EB%B2%88%5D%20Design%20HashMap.py)  
 
