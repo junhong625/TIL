@@ -27,4 +27,4 @@ class MyHashMap(object):
         :rtype: None
         """
         if key in self.hashmap:
-            del self.hashmap[key]
+            del self.hashmap[key] 
