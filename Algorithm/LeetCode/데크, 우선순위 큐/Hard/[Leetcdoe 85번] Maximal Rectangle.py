@@ -60,4 +60,4 @@ class Solution(object):
                                     cnt = 0
                     stack_idx = deque()
                     print(row, num, max_val)
-        return max_val
+        return max_val 

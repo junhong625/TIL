@@ -196,5 +196,16 @@
 [[Baekjoon] No.1978](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/1978_%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0.py)  
 
 [2022/08/19]    
+[[SWEA] No.1220](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1220_magnetic.py)  
+[[SWEA] No.1234](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1234_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8.py)  
+[[SWEA] No.5356](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5356_%EC%9D%98%EC%84%9D%EC%9D%B4%EC%9D%98%20%EC%84%B8%EB%A1%9C%EB%A1%9C%20%EB%A7%90%ED%95%B4%EC%9A%94.py)  
+[[SWEA] No.1859](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/1859_%EB%B0%B1%EB%A7%8C%EC%9E%A5%EC%9E%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98).py)  
+[[SWEA] No.1974](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/1974_%EC%8A%A4%EB%8F%84%EC%BF%A0%20%EA%B2%80%EC%A0%95(%EA%B0%84%EA%B2%B0).py)  
+[[SWEA] No.1979](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/1979_%EC%96%B4%EB%94%94%EC%97%90%20%EB%8B%A8%EC%96%B4%EA%B0%80%20%EB%93%A4%EC%96%B4%EA%B0%88%20%EC%88%98%20%EC%9E%88%EC%9D%84%EA%B9%8C(%EA%B0%84%EA%B2%B0).py)  
+[[SWEA] No.1979](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/1979_%EC%96%B4%EB%94%94%EC%97%90%20%EB%8B%A8%EC%96%B4%EA%B0%80%20%EB%93%A4%EC%96%B4%EA%B0%88%20%EC%88%98%20%EC%9E%88%EC%9D%84%EA%B9%8C(%EA%B0%84%EA%B2%B0).py)  
 [[Baekjoon] No.2108](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2108_%ED%86%B5%EA%B3%84%ED%95%99.py)  
+
+[2022/08/20]    
+[[LeetCode] No.85](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EB%8D%B0%ED%81%AC%2C%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/Hard/%5BLeetcdoe%2085%EB%B2%88%5D%20Maximal%20Rectangle.py)  
+
 
