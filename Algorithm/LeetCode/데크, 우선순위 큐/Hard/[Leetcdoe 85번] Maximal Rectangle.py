@@ -1,3 +1,5 @@
+# 71/73개 코드
+
 class Solution(object):
     def maximalRectangle(self, matrix):
         from collections import deque
@@ -56,10 +58,6 @@ class Solution(object):
                                     max_val = max_val if max_val > cnt * len(stack_idx) else cnt * len(stack_idx)
                                 else:
                                     cnt = 0
-
-
-
-
                     stack_idx = deque()
                     print(row, num, max_val)
         return max_val
