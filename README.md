@@ -211,3 +211,8 @@
 [2022/08/21]    
 [[LeetCode] No.706](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20706%EB%B2%88%5D%20Design%20HashMap.py)  
 
+[2022/08/22]    
+[[Algorithm] 7. 스택 응용](https://github.com/junhong625/TIL/blob/master/Algorithm(study)/%5BAlgorithm%5D%207.%20%EC%8A%A4%ED%83%9D%20%EC%9D%91%EC%9A%A9.md)  
+[[Baekjoon] No.2164](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2164_%EC%B9%B4%EB%93%9C2.py)  
+[[Baekjoon] No.2231](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2231_%EB%B6%84%ED%95%B4%ED%95%A9.py)  
+[[Baekjoon] No.2609](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2609_%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%20%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98.py)  
