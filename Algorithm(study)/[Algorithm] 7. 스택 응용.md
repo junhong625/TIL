@@ -32,7 +32,7 @@
             result = ''
         
             # 중위 표기법을 후위 표기법으로 변경
-            for char in chars:
+            for char in s:
                 if char.isdigit():
                     result += char
                 elif char == ')':
