@@ -232,6 +232,8 @@
 [[SWEA] No.1211](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/1211_Ladder2.py)  
 [[SWEA] No.1970](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/1970_%EC%89%AC%EC%9A%B4%20%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.py)  
 [[SWEA] No.5431](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5431_%EB%AF%BC%EC%84%9D%EC%9D%B4%EC%9D%98%20%EA%B3%BC%EC%A0%9C%20%EC%B2%B4%ED%81%AC%ED%95%98%EA%B8%B0.py)  
+[[Baekjoon] No.2751](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2751_%EC%88%98%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%202.py)  
+[[Baekjoon] No.2798](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2798_%EB%B8%94%EB%9E%99%EC%9E%AD.py)  
 
 
 
