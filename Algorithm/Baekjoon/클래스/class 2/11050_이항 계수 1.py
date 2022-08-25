@@ -12,4 +12,4 @@ total = 1
 for i in range(B):
     total *= (A-i)
 
-print(total // f(B))
+print(total // f(B)) 
