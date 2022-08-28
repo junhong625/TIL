@@ -257,6 +257,13 @@
 [[Baekjoon] No.11650](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/11650_%EC%A2%8C%ED%91%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.py)  
 [[Baekjoon] No.11866](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/11866_%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%20%EB%AC%B8%EC%A0%9C%200.py)  
 
+[2022/08/27]
+[[SWEA] No.1258](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/1258_%ED%96%89%EB%A0%AC%20%EC%B0%BE%EA%B8%B0.py)  
+[[Baekjoon] No.2869](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/2869_%EB%8B%AC%ED%8C%BD%EC%9D%B4%EB%8A%94%20%EC%98%AC%EB%9D%BC%EA%B0%80%EA%B3%A0%20%EC%8B%B6%EB%8B%A4.py)  
+[[Baekjoon] No.4949](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/4949_%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C%20%EC%84%B8%EC%83%81.py)  
+
+[2022/08/28]
+[[SWEA] No.6190](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/6190_%EC%A0%95%EA%B3%A4%EC%9D%B4%EC%9D%98%20%EB%8B%A8%EC%A1%B0%20%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%20%EC%88%98.py)  
 
 
 

@@ -12,4 +12,4 @@ for t in range(1, T+1):
                     break
             else:
                 maxV = maxV if maxV > int(Sum) else int(Sum)
-    print(f'#{t} {maxV}' if maxV else f'#{t} -1')
+    print(f'#{t} {maxV}' if maxV else f'#{t} -1') 
