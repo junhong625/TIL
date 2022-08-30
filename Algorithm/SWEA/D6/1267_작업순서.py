@@ -22,7 +22,7 @@ for t in range(10):
         for w in adjList[i]:
             visited[w] = True
 
-    start = [i for i in range(1,V+1) if not visited[i]]  
+    start = [i for i in range(1,V+1) if not visited[i]] # 시작가능한 위치
     cnt = {i:0 for i in range(1,V+1)} 
     for i in range(E): 
         cnt[edges[i*2+1]] += 1  
