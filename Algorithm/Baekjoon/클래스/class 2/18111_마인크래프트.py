@@ -1,16 +1,30 @@
 import sys
+from collections import Counter
+
+def check_floor(h):
+    time = 0
+    for s in counter.keys():
+        if h < s:
+            time += (s-h) * 2 * counter[s]
+        elif h > s:
+            time += (h-s) * counter[s]
+        else:
+            continue
+    times.append(time)
+    heights.append(h)
 
 N, M, B = map(int, sys.stdin.readline().split())
-arr = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
-total, result = 0, 0
-for r in arr:
-    total += sum(r)
+arr, times, heights = [], [], []
+for _ in range(N):
+    arr.extend(list(map(int, sys.stdin.readline().split())))
+counter = Counter(arr)
+result, max_h, min_h = sum(arr), max(counter.keys()), min(counter.keys())
 
-avg = round(total / (N*M))
-for i in range(N):
-    for j in range(M):
-        if avg - arr[i][j] > 0:
-            result += 1 * abs(avg - arr[i][j])
-        else:
-            result += 2 * abs(avg-arr[i][j])
-print(result, avg)
+for s in range(min_h, max_h+1):
+    if B + result < s * N * M:
+        break
+    check_floor(s)
+    
+times, heights = times[::-1], heights[::-1]
+idx = times.index(min(times))
+print(times[idx], heights[idx])
