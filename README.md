@@ -266,6 +266,12 @@
 [[SWEA] No.6190](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/6190_%EC%A0%95%EA%B3%A4%EC%9D%B4%EC%9D%98%20%EB%8B%A8%EC%A1%B0%20%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%20%EC%88%98.py)  
 
 [2022/08/29]
+[[Baekjoon] No.7568](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/7568_%EB%8D%A9%EC%B9%98.py)  
+
+[2022/08/30]
+[[Django] 1. 개념 및 기초](https://github.com/junhong625/TIL/blob/master/Django/%5BDjango%5D%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EA%B8%B0%EC%B4%88.md)
+[[Baekjoon] No.11651](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/11651_%EC%A2%8C%ED%91%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%202.py)  
+[[Baekjoon] No.15829](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/15829_Hashing.py)  
 
 
 
