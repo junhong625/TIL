@@ -269,9 +269,12 @@
 [[Baekjoon] No.7568](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/7568_%EB%8D%A9%EC%B9%98.py)  
 
 [2022/08/30]
-[[Django] 1. 개념 및 기초](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EA%B8%B0%EC%B4%88.md)
+[[Django] 1. intro](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EA%B8%B0%EC%B4%88.md)
 [[Baekjoon] No.11651](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/11651_%EC%A2%8C%ED%91%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%202.py)  
 [[Baekjoon] No.15829](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/15829_Hashing.py)  
 
+[2022/08/31]
+[[Django] 2. model](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%20model.md)
+[[Baekjoon] No.18111](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/18111_%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8.py)  
 
 
