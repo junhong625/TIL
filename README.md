@@ -278,6 +278,6 @@
 [[Baekjoon] No.18111](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/18111_%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8.py)  
 
 [2022/09/01]  
-[[Baekjoon] No.1003](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/18111_%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8.py)  
-[[Baekjoon] No.1012](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/18111_%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8.py)  
+[[Baekjoon] No.1003](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1003_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%ED%95%A8%EC%88%98.py)  
+[[Baekjoon] No.1012](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1012_%EC%9C%A0%EA%B8%B0%EB%86%8D%20%EB%B0%B0%EC%B6%94.py)  
 
