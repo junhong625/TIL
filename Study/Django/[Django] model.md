@@ -1,5 +1,3 @@
-# Django_Day_2
-
 # Database
 
 > 검색 및 구조화 같은 작업을 보다 쉽게 하기 위해 조직화된 데이터를 수집하는 저장 시스템
@@ -44,8 +42,8 @@
 
 > 데이터를 조회하기 위한 명령어
 > 
-
----
+<br>
+<br>
 
 # Django Model
 
@@ -68,6 +66,8 @@
     class Article(models.Model): # models.Model클래스를 상속
     		title = models.CharField(max_length=10) # title 필드 정의
     		content = models.TextField() # content 필드 정의
+    		created_at = models.DateTimeField(auto_now_add=True) # 생성 시각 정의
+        updated_at = models.DateTimeField(auto_now=True) # 수정 시각 정의
     ```
     
     - models.CharField(max_length=10)
@@ -79,7 +79,16 @@
             - 많은 문자열 입력이 필요할 시 사용
                 - database에 따라 최대 크기가 달라지기에 위와 같이 설명
             - 필수 attribute가 없음
+    - models.DateTimeField()
+        - DateTimeField타입
+            - 날짜와 시간을 받는 타입
+            - option으로 `auto_now_add`와 `auto_now`가 존재
+                - `auto_now_add` : True로 설정 시 처음 생성했을 때의 시각으로 저장
+                - `auto_now` : True로 설정 시 수정했을 때의 시각으로 변경
 - 위와 같이 클래스 상속 기반 형태의 Django를 사용함으로써 더욱 편리하게 기능을 생성 가능
+
+<br>
+<br>
 
 # Migrations
 
@@ -161,6 +170,9 @@ python manage.py sqlmigrate [앱 이름] [번호]
     2. auto_now_add
         - 최초 생성 일자
         - 데이터가 실제로 만들어질 때의 현재 날짜와 시간으로 자동 설정
+
+<br>
+<br>
 
 # ORM(Object-Relational-Mapping)
 
@@ -309,3 +321,399 @@ Article.objects.create(title='제목', content='내용') # objects의 create 메
 > 
 - 필요 시 [공식 문서](https://docs.djangoproject.com/en/4.1/ref/models/querysets/#field-lookups) 참고
 - ex)
+    
+    ```python
+    Article.objects.filter(content__contains='ja') # content에 'ja'를 포함하고 있는데 데이터 조회
+    ```
+    
+
+## UPDATE(데이터 수정)
+
+> 수정을 할 시에는 반드시 먼저 수정할 데이터를 조회해야 함
+> 
+
+### 수정 방법
+
+```python
+article = Article.objects.get(pk=1) # 수정할 데이터를 조회
+article.content = 'DJANGO' # 데이터 수정
+article.save() # DB에 반영
+```
+
+## DELETE(데이터 삭제)
+
+> 삭제할 데이터를 반드시 먼저 조회해야 함
+> 
+
+### 삭제 방법
+
+```python
+article = Article.objects.get(pk=1) # 삭제할 데이터를 조회
+article.delete() # 데이터 삭제
+```
+
+- 삭제를 한 이후 데이터를 생성하면 비어있는 PK로 생성되는 것이 아니라 마지막으로 생성했던 레코드 PK의 다음 PK로 생성됨
+
+<br>
+<br>
+
+# VIEWS.PY에서 CRUD사용
+
+## READ
+
+### urls.py
+
+```python
+# 앱/ urls.py
+
+from django.urls import path
+from . import views
+
+app_name = 'articles'
+urlpatterns = [
+    path('', views.index, name='index'),
+]
+```
+
+### views.py
+
+```python
+# 앱/views.py
+
+from django.shortcuts import render
+from .model import Article # 생성한 클래스 import
+
+def index(request): # READ
+		articles = Article.objects.all() # 전체 데이터 조회
+		context = { # dict 형식으로 전체 데이터 저장
+				'articles' : articles
+		}
+		return render(request, 'articles/index.html', context # articles폴더의 index.html 파일에 context를 전달
+```
+
+### index.html
+
+```html
+{% extends 'base.html' %} <!-- bast.html 상속 -->
+
+{% block content%}
+    <h1>Articles</h1>
+		<a href="{% url 'articles:new' %">NEW</a>
+    <hr>
+    {% for article in articles %} <!-- 입력받은 context에서 key가 articles인 value들을 받아 하나씩 꺼내 for문으로 순회 -->
+        <p>글 번호: {{ article.pk }}</p> <!-- 각각의 레코드에서 pk를 variable로 출력 -->
+        <p>제목: {{ article.title }}</p> <!-- 각각의 레코드에서 title을 variable로 출력 -->
+        <p>내용: {{ article.content }}</p> <!-- 각각의 레코드에서 content를 variable로 출력 -->
+				<hr>
+    {% endfor %}
+{% endblock content%}
+```
+
+## CREATE
+
+> CREATE를 구현하기 위해서는 두 개의 view 함수가 필요함
+> 
+1. 글을 작성할 페이지를 render하는 함수
+2. 작성한 페이지에서 데이터를 받아 DB에 저장하는 함수
+
+### GET
+
+> 특정 리소스를 가져오도록 요청할 때 사용
+> 
+- DB의 형태가 URL에 표시되기 때문에 반드시 데이터를 가져올 때만 사용해야 함
+- DB에 변화 X
+- CRUD에서 R담당
+
+### POST
+
+> 서버로 데이터를 전송할 때 사용
+> 
+- GET과 다르게 URL로 보내지지 않음
+- csrf_token이 반드시 필요함
+- CRUD에서 C/U/D의 역할을 담당
+
+### CSRF-Token(Cross-Site-Request-Forgery Token)
+
+> 사이트 간 요청 위조를 막기 위해 token값이 유효한지 검증하는 기법
+> 
+- Django에서는 csrf_token 템플릿 태그를 사용
+
+### urls.py
+
+```python
+# 앱/urls.py
+
+from django.urls import path
+from . import views
+
+app_name = 'articles'
+urlpatterns = [
+    path('', views.index, name='index'),
+		path('new/', views.new, name='new'),
+		path('create/', views.create, name='create'),
+]
+```
+
+### views.py
+
+```python
+# 앱/views.py
+
+from django.shortcuts import render, redirect
+from .model import Article # 생성한 클래스 import
+
+...
+
+def new(request): # CREATE 첫번째 함수
+		return render(request, 'articles/new.html') # articles폴더의 new.html 파일로 이동
+
+def create(request): # CREATE 두번째 함수
+		# 사용자의 데이터 변수에 저장
+		title = request.POST.get('title') # 전송받은 데이터 중 key가 title인 데이터를 title 변수에 저장
+		content = request.POST.get('content')	# 전송받은 데이터 중 key가 content인 데이터를 content 변수에 저장 
+		
+		# DB에 저장
+		article = Article(title=title, content=content) # 인스턴스 생성하면서 각 속성에 데이터 삽입
+		article.save() # DB에 반영
+		return redirect('articles:index') # 생성 완료 후 index페이지로 이동
+	# return redirect('articles:detail', article.pk) # 생성 후 입력한 데이터의 detail 페이지로 바로 이동
+```
+
+### new.html
+
+```html
+# templates/articles/new.html
+
+{% extends 'base.html' %} <!-- base.html 상속 -->
+
+{% block content %}
+    <h1>NEW</h1>
+    <form action="{% url 'articles:create' %}" method="POST"> <!-- 입력받은 데이터를 articles의 urls.py의 name이 create인 path로 전송, 전송 방식은 POST -->
+        {% csrf_token %} <!-- POST 방식으로 전송하기 위해서는 csrf_token 필수 -->
+        <label for="title">TITLE: </label> <!-- for은 같은 name을 찾아 해당 태그로 이동 -->
+        <input type="text" name='title'><br> <!-- name은 데이터를 전송할 때 key의 역할, 전송한 데이터를 name을 key로 이용하여 데이터를 읽어들임-->
+        <label for="content">CONTENT: </label>
+        <textarea name="content"></textarea><br>
+        <input type="submit" value='작성'> <!-- 작성을 누를 시 action으로 전송-->
+    </form>
+    <hr>
+    <a href="{% url 'articles:index' %}">BACK</a> <!-- BACK을 누를 시 articles의 urls.py에서 name이 index인 path로 이동 -->
+{% endblock content %}
+```
+
+### index.html
+
+```html
+<!-- 새로운 데이터를 입력할 NEW 반영 -->
+
+{% extends 'base.html' %} <!-- bast.html 상속 -->
+
+{% block content%}
+    <h1>Articles</h1>
+		<a href="{% url 'articles:new' %">NEW</a> <!-- articles의 urls.py에서 name이 new인 path로 이동  -->
+    <hr>
+    {% for article in articles %} <!-- 입력받은 context에서 key가 articles인 value들을 받아 하나씩 꺼내 for문으로 순회 -->
+        <p>글 번호: {{ article.pk }}</p> <!-- 각각의 레코드에서 pk를 variable로 출력 -->
+        <p>제목: {{ article.title }}</p> <!-- 각각의 레코드에서 title을 variable로 출력 -->
+        <p>내용: {{ article.content }}</p> <!-- 각각의 레코드에서 content를 variable로 출력 -->
+				<hr>
+    {% endfor %}
+{% endblock content%}
+```
+
+## READ 2(detail)
+
+> 글의 번호(PK)를 활용해서 개별 게시글 상세 페이지 조회
+> 
+- variable routing을 활용 <int:pk>
+
+### urls.py
+
+```python
+ # 앱/urls.py
+
+from django.urls import path
+from . import views
+
+app_name = 'articles'
+urlpatterns = [
+    path('', views.index, name='index'),
+		path('new/', views.new, name='new'),
+		path('create/', views.create, name='create'),
+		path('<int:pk>/', views.detail, name='detail'), # variable routing을 활용
+]
+```
+
+### views.py
+
+```python
+# 앱/views.py
+
+from django.shortcuts import render, redirect
+from .model import Article # 생성한 클래스 import
+
+...
+
+def detail(request, pk):
+		article = Article.objects.get(pk=pk) # DB에서 pk로 데이터를 조회하여 article 변수에 할당
+		context = { # article변수에 저장한 데이터 context에 dict형태로 저장
+				'article' : article
+		}
+		return render(request, 'articles/detail.html', context) # articles폴더의 detail.html에 context 전달 
+```
+
+### detail.html
+
+```html
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>DETAIL</h2>
+    <h3>{{ article.pk }} 번째 글</h3> <!-- views에서 전송한 context에 있는 key가 article인 데이터의 pk 출력 -->
+    <hr>
+    <p>제목: {{ article.title }}</p> <!-- views에서 전송한 context에 있는 key가 article인 데이터의 title 출력 -->
+    <hr>
+    <p>내용: {{ article.content }}</p> <!-- views에서 전송한 context에 있는 key가 article인 데이터의 content 출력 -->
+    <hr>
+    <p>작성 시각: {{ article.created_at }}</p> <!-- views에서 전송한 context에 있는 key가 article인 데이터의 created_at 출력 -->
+    <hr>
+    <p>수정 시각: {{ article.updated_at }}</p> <!-- views에서 전송한 context에 있는 key가 article인 데이터의 updated_at출력 -->
+    <hr>
+    <hr>
+    <a href="{% url 'articles:edit' article.pk %}">EDIT</a><br> <!-- articles의 urls.py에서 name인 edit인 path로 article의 pk데이터를 전송하여 이동 -->
+    <a href="{% url 'articles:index' %}">BACK</a> <!-- articles의 urls.py에서 name인 index인 path로 이동 -->
+{% endblock content %}
+```
+
+## DELETE
+
+> 데이터 삭제
+> 
+
+### urls.py
+
+```python
+from django.urls import path
+from . import views
+
+app_name = 'articles'
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('new/', views.new, name='new'),
+    path('create/', views.create, name='create'),
+    path('<int:pk>/', views.detail, name='detail'),
+    path('<int:pk>/delete/', views.delete, name='delete'),
+]
+```
+
+### views.py
+
+```python
+# 앱/views.py
+
+from django.shortcuts import render, redirect
+from .model import Article # 생성한 클래스 import
+
+...
+
+def delete(request, pk):
+		article = Article.objects.get(pk=pk) # DB에서 pk로 데이터를 조회하여 article 변수에 할당
+		article.delete() # article에 저장된 데이터 삭제
+		return redirect('articles:index') # articles의 urls.py에서 name이 index인 path로 이동
+```
+
+## UPDATE
+
+> 데이터를 수정하기 위해서는 생성할 때와 마찬가지로 두 개의 함수가 필요
+> 
+1. 수정할 페이지를 render하는 함수
+2. 수정한 페이지에서 데이터를 받아 DB에 저장하는 함수
+
+### urls.py
+
+```python
+from django.urls import path
+from . import views
+
+app_name = 'articles'
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('new/', views.new, name='new'),
+    path('create/', views.create, name='create'),
+    path('<int:pk>/', views.detail, name='detail'),
+    path('<int:pk>/delete/', views.delete, name='delete'),
+    path('<int:pk>/edit/', views.edit, name='edit'),
+    path('<int:pk>/update/', views.update, name='update'),
+]
+```
+
+### views.py
+
+```python
+# 앱/views.py
+
+from django.shortcuts import render, redirect
+from .model import Article # 생성한 클래스 import
+
+...
+
+def edit(request, pk): # 수정할 페이지로 이동하는 함수
+    article = Article.objects.get(pk=pk) # 수정할 데이터를 조회해서 article변수에 할당
+    context = { # article변수에 저장된 데이터를 context에 dict형태로 저장
+        'article': article,
+    }
+    return render(request, 'articles/edit.html', context) # articles폴더의 edit.html로 context를 전달
+
+def update(request, pk): # 수정을 반영하는 함수
+    article = Article.objects.get(pk=pk) # 수정할 데이터를 조회해서 article변수에 할당
+    article.title = request.POST.get('title') # 수정한 데이터 중 key가 title인 데이터를 가져와 article의 title에 할당
+    article.content = request.POST.get('content') # 수정한 데이터 중 key가 content인 데이터를 가져와 article의 content에 할당
+    article.save() # 변경사항 저장 및 반영
+    return redirect('articles:detail', article.pk) # 수정 완료 후 articles의 urls.py 중 name이 detail인 path에 수정 완료한 데이터의 pk를 전달
+```
+
+### edit.html
+
+```html
+{% extends 'base.html' %} <!-- base.html 상속 -->
+
+{% block content %}
+    <h1>EDIT</h1>
+    <form action="{% url 'articles:update' article.pk %}" method="POST"> <!-- 수정한 데이터를 articles의 urls.py에서 name이 update인 path에 context로 들어온 article의 pk데이터와 함께 POST 방식으로 전송 -->
+        {% csrf_token %} <!-- POST 방식 전송을 위한 token -->
+        <label for="title">TITLE: </label>
+        <input type="text" name="title" value="{{ article.title }}"><br> <!-- value에 context로 들어온 article에서 title데이터를 variable로 할당하여 출력-->
+        <label for="content">CONTENT: </label>
+        <textarea name="content" cols="30" rows="5">{{ article.content }}</textarea><br> <!-- context로 들어온 article에서 content데이터를 variable로 할당하여 출력-->
+        <input type="submit"> <!-- 제출 시 form action에 지정된 주소로 전송 -->
+    </form>
+    <hr>
+    <a href="{% url 'articles:index' %}">BACK</a> <!-- articles의 urls.py에서 name이 index인 path로 이동 -->
+{% endblock content %}
+```
+
+## Admin(관리자)
+
+### admin 계정 생성
+
+```python
+python manage.py createsuperuser
+```
+
+- 이후 prompt에 뜨는 username과 password를 입력해 관리자 계정 생성
+    - email은 선택사항이기에 pass 가능
+
+### admin에 클래스 등록
+
+> admin site에서 데이터 CRUD(조회, 삭제, 수정, 입력)를 하기 위함
+> 
+
+```python
+# articles/admin.py
+
+from django.contrib import admin
+from .models import Article # 생성한 클래스 import
+
+# Register your models here.
+admin.site.register(Article) # admin site에 생성한 클래스 등록
+```
