@@ -1,19 +1,21 @@
 import sys
 
-def z(arr):
-    if len(arr) != 2:
-        for i in range(0, len(arr), len(arr//2)):
-            for j in range(0, len(arr), len(arr//2)):
-                z([[x,y] for x in range(i, i+len(arr)//2) for y in range(j, j+len(arr)//2)])
-    else:
-        for i in range(2):
-            for j in range():
-                pass
-
-
-
 N, r, c = map(int, sys.stdin.readline().split())
 
-arr = [[0 for _ in range(2**N)] for _ in range(2**N)]
-cnt = 0
-
+total = (2**N)**2
+start, end = 0, (2**N)**2
+while total != 0:
+    if r < total**(1/2)//2 and c < total**(1/2)//2:
+        end -= (end-start)//4*3
+    elif r < total**(1/2)//2 and c >= total**(1/2)//2:
+        end, start = end-(end-start)//4*2, start+(end-start)//4
+        c -= total**(1/2)//2
+    elif r >= total**(1/2)//2 and c < total**(1/2)//2:
+        end, start = end-(end-start)//4, start+(end-start)//4*2
+        r -= total**(1/2)//2
+    else:
+        start += (end-start)//4*3
+        r -= total**(1/2)//2
+        c -= total**(1/2)//2
+    total //= 4
+print(start)
