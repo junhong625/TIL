@@ -1,4 +1,4 @@
-# Django_Day_1
+# Django_Intro
 
 # Framework
 
