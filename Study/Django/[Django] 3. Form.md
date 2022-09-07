@@ -302,3 +302,191 @@ def update(request, pk):
 
 - 사용자로부터 받는 데이터가 DB와 연관되어 있는 경우에 사용
 - 데이터의 유효성 검사가 끝나면 데이터를 어떤 레코드에 맵핑해야 할지 알고 있기에 save()호출이 가능
+
+## Widgets
+
+> 유효 검사에는 전혀 영향을 주지 않고 렌더에 영향을 주는 속성
+> 
+- 필요한 arguments는 필요 시에 공식 문서를 참조하여 작성
+
+### 위젯 작성 방법
+
+> Django에서는 첫 번째 방법을 권장
+> 
+- 첫 번째 방법
+    
+    ```python
+    # 앱/models.py
+    
+    from django import forms
+    from .models import Article
+    
+    class ArticleForm(forms.ModelForm):
+        title = forms.CharField( 
+            label='제목',
+            widget=forms.TextInput(
+                attrs={
+                    'class': 'my-title', 
+                    'placeholder': 'Enter the title',
+                    'maxlength': 10,
+                }
+            )
+        )
+    		class Meta:
+    				model = Article
+    				fields = '__all__'
+    ```
+    
+- 두 번째 방법
+
+    ```python
+    # 앱/models.py
+
+    from django import forms
+    from .models import Article
+
+    class ArticleForm(forms.ModelForm):
+            
+            class Meta:
+                    model = Article
+                    fields = '__all__'
+                    widget= {
+                            'title': forms.TextInput(attrs={
+                                    'class': 'my-title', 
+                                    'placeholder': 'Enter the title',
+                                    'maxlength': 10,
+                                }
+                            )
+                        }
+    ```
+
+## HTTP request에 따른 view 함수 구조 변화
+
+> views.py 내의 new-create, edit-update에는 공통점과 차이점이 존재
+> 
+
+### 공통점
+
+- new-create는 모두 CREATE 로직을 구현하기 위한 공통 목적
+- edit-update는 모두 UPDATE로직을 구현하기 위한 공통 목적
+
+### 차이점
+
+- new와 edit은 GET요청에 대한 처리
+- create와 update는 POST요청에 대한 처리
+
+> 이 공통점과 차이점을 기반으로 views.py에서 method에 따라 로직이 분리 되도록 변경
+> 
+
+### Create(+new)
+
+```python
+# 앱/views.py
+
+def create(request):
+    if request.method == 'POST': # 요청이 POST일 경우 -> CREATE
+        form = ArticleForm(request.POST) #  form 변수에 데이터를 입력받은 ArticleForm 할당
+        if form.is_valid(): # 유효성 검사
+            article = form.save() # 유효성 검사 통과시 form저장
+            return redirect('articles:detail', article.pk) # 저장한 페이지의 detail로 이동
+    else: # 요청이 GET일 경우 -> NEW
+        form = ArticleForm() # form 변수에 데이터가 빈 ArticleForm 할당
+    context = { # 요청에 맞게 저장된 form을 context에 저장
+        'form' : form
+    }
+    return render(request, 'articles/create.html', context) # create.html에 context전달
+```
+
+### Update(+edit)
+
+```python
+# 앱/views.py
+
+def update(request, pk):
+    article = Article.objects.get(pk=pk) # article 변수에 pk에 해당하는 데이터 가져와서 할당
+    if request.method == 'POST': # 요청이 POST일 경우 -> UPDATE
+        form = ArticleForm(request.POST, instance=article) # form 변수에 article의 데이터를 POST로 받은 데이터로 덮어 씌운 ArticleForm을 할당
+        if form.is_valid(): # 유효성 검사
+            form.save() # 유효성 검사 통과 시 데이터베이스에 반영
+            return redirect('articles:detail', article.pk) # 저장한 페이지의 detail로 이동
+    else: # 요청이 GET일 경우 -> EDIT
+        form = ArticleForm(instance=article) # form 변수에 article의 데이터 반영되어 있는 ArticleForm을 할당
+    context = { # 각 요청에 맞게 저장된 form을 article과 함께 context에 저장
+        'article': article,
+        'form' : form
+    }
+    return render(request, 'articles/update.html', context) # update.html에 context를 전달
+```
+
+> 코드의 간결화와 유효성 검사를 실패했을 시에 반환하는 `form`을 `context`에 할당하기 위해 `context`에 대한 indentation을 `if`, `else`와 같은 라인에 위치
+> 
+
+### urls.py
+
+```python
+from django.urls import path
+from . import views
+
+app_name = 'articles'
+urlpatterns = [
+    path('', views.index, name='index'),
+    # path('new/', views.create, name='new'), # new함수 필요 X 
+    path('create/', views.create, name='create'),
+    path('<int:pk>/', views.detail, name='detail'),
+    path('<int:pk>/delete/', views.delete, name='delete'),
+    # path('<int:pk>/edit/', views.edit, name='edit'), # edit함수 필요 X 
+    path('<int:pk>/update/', views.update, name='update'),
+]
+```
+
+### new.html → create.html로 이름 변경
+
+```python
+# templates/앱/create.html
+
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+    <h1>CREATE</h1>
+    <form action="{% url 'articles:create' %}" method="POST"> # articles urls.py의 create로 전송
+        {% csrf_token %} # POST요청을 위한 토큰
+        {{ form.as_p }}
+        <input type="submit">
+    </form>
+    <hr>
+    <a href="{% url 'articles:index' %}">BACK</a> # articles urls.py의 index로 이동
+{% endblock content %}
+```
+
+### edit.html → update.html로 이름 변경
+
+```python
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>UPDATE</h1>
+    <form action="{% url 'articles:update' article.pk %}" method="POST"> # articles urls.py의 article.pk와 update로 전송
+        {% csrf_token %} # POST요청을 위한 토큰
+        {{ form.as_p }}
+        <input type="submit">
+    </form>
+    <hr>
+    <a href="{% url 'articles:index' %}">BACK</a> # articles urls.py의 index로 이동
+{% endblock content %}
+```
+
+# View Decorators
+
+## 데코레이터(Decorator)
+
+> 기존에 작성된 함수에 기능을 추가하고 싶을 때, 해당 함수를 수정하지 않고 기능을 추가해주는 함수
+> 
+- Django는 다양한 HTTP 기능을 지원하기 위해 views.py 내의 함수에 적용할 수 있는 여러 데코레이터를 제공
+- HTTP decorator 메서드 목록
+    - `require_http_methods()` ****
+        - 특정한 요청 method만 허용하도록 하는 데코레이터
+    - `require_POST()`
+        - POST 요청 method만 허용하도록 하는 데코레이터
+    - `require_safe()`
+        - GET 요청 method만 허용하도록 하는 데코레이터
