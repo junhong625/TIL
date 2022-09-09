@@ -303,4 +303,4 @@
 [[LeetCode] No.200](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)
 
 [2022/09/09]
-[[LeetCode] No.46](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)
+[[LeetCode] No.46](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2046%EB%B2%88%5D%20Permutations.py)
