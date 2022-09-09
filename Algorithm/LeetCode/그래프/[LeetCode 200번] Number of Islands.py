@@ -20,6 +20,7 @@ class Solution(object):
                     bfs(i, j)
                     cnt += 1
         return cnt
+        
 #         cnt = 0
 #         q = deque()
 #         for i in range(len(grid)):

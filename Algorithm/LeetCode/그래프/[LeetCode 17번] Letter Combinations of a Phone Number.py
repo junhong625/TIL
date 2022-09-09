@@ -19,6 +19,3 @@ class Solution(object):
         dfs(0, '')
         
         return result
-
-            
-                
