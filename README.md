@@ -320,7 +320,10 @@
 [[Algorithm] 10. 트리](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2010.%20%ED%8A%B8%EB%A6%AC.md)
 [[Baekjoon] No.1107](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8.py)  
 
-[2022/09/13]
+[2022/09/14]
 [[Django] 5. HTTP & Cookie](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%205.%20HTTP%20%26%20Cookie.md)
 [[Django] 6. Login](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%206.%20Login.md)
 [[SWEA] No.2819](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/2819_%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%20%EC%88%AB%EC%9E%90%20%EC%9D%B4%EC%96%B4%20%EB%B6%99%EC%9D%B4%EA%B8%B0.py)  
+
+[2022/09/15]
+[[SWEA] No.1952](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/1952_%EC%88%98%EC%98%81%EC%9E%A5.py)  
