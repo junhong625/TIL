@@ -22,3 +22,4 @@ for t in range(1, 11):
         N -= 1
 
     print(f'#{t} {int(tree[1])}')
+print(6600*21+18600+6600)
