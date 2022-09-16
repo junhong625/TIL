@@ -341,3 +341,4 @@
 [[SWEA] No.1953](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/1953_%ED%83%88%EC%A3%BC%EB%B2%94%20%EA%B2%80%EA%B1%B0.py)  
 [[SWEA] No.4012](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/4012_%EC%9A%94%EB%A6%AC%EC%82%AC.py)  
 [[SWEA] No.5688](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5688_%EC%84%B8%EC%A0%9C%EA%B3%B1%EA%B7%BC%EC%9D%84%20%EC%B0%BE%EC%95%84%EB%9D%BC.py)  
+[[LeetCode] No.743](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/%5BLeetCode%20743%EB%B2%88%5D%20Network%20Delay%20Time.py)
