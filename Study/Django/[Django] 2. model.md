@@ -69,7 +69,7 @@
     		title = models.CharField(max_length=10) # title 필드 정의
     		content = models.TextField() # content 필드 정의
     		created_at = models.DateTimeField(auto_now_add=True) # 생성 시각 정의
-        updated_at = models.DateTimeField(auto_now=True) # 수정 시각 정의
+            updated_at = models.DateTimeField(auto_now=True) # 수정 시각 정의
     ```
     
     - models.CharField(max_length=10)

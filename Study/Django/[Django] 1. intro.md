@@ -147,7 +147,7 @@ pip install django
     - Asynchronous Server Gateway Interface
     - Django 애플리케이션이 비동기식 웹 서버와 연결 및 소통하는 것을 도움
     - 추후 배포 시에 사용
-- ssettings.py
+- settings.py
     - Django 프로젝트 설정을 관리
 - urls.py
     - 사이트의 url과 적절한 views의 연결을 지정

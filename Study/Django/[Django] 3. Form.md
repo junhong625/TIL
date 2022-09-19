@@ -144,7 +144,7 @@
     from django import forms
     from .modles import Article
     
-    class ArticleForm(models.ModelForm):
+    class ArticleForm(forms.ModelForm):
     		
     		class Meta:
     				model = Article # 반환 값이 아닌 참조 값을 할당하고 있음
@@ -195,11 +195,11 @@
 from .forms import ArticleForm
 
 def create(request):
-		form = ArticleForm(request.POST) # POST로 받은 데이터를 form클래스에 인수로 집어넣어 데이터가 반영된 form 인스턴스 생성
-		if form.is_valid(): # 유효성 검사 실시
-				article = form.save() # 유효성 검사 통과 시 DB에 저장
-				return redirect('articles:detail', article.pk) # 저장된 페이지로 이동
-		return redirect('articles:new') # 유효성 검사 실패 시 다시 현재 페이지로 이동
+    form = ArticleForm(request.POST) # POST로 받은 데이터를 form클래스에 인수로 집어넣어 데이터가 반영된 form 인스턴스 생성
+    if form.is_valid(): # 유효성 검사 실시
+        article = form.save() # 유효성 검사 통과 시 DB에 저장
+        return redirect('articles:detail', article.pk) # 저장된 페이지로 이동
+    return redirect('articles:new') # 유효성 검사 실패 시 다시 현재 페이지로 이동
 ```
 
 - `reqeust.POST`
@@ -213,14 +213,14 @@ def create(request):
         # 앱/views.py
         
         def create(request):
-        		form = ArticleForm(request.POST) # POST로 받은 데이터를 form클래스에 인수로 집어넣어 데이터가 반영된 form 인스턴스 생성
-        		if form.is_valid(): # 유효성 검사 실시
-        				article = form.save() # 유효성 검사 통과 시 DB에 저장
-        				return redirect('articles:detail', article.pk) # 저장된 페이지로 이동
-        		context = {
-        				'form':form
-        		}
-        		return render(request, 'articles/new.html', context)
+            form = ArticleForm(request.POST) # POST로 받은 데이터를 form클래스에 인수로 집어넣어 데이터가 반영된 form 인스턴스 생성
+            if form.is_valid(): # 유효성 검사 실시
+                article = form.save() # 유효성 검사 통과 시 DB에 저장
+                return redirect('articles:detail', article.pk) # 저장된 페이지로 이동
+            context = {
+                'form':form
+            }
+            return render(request, 'articles/new.html', context)
         ```
         
 - `save()`
