@@ -14,6 +14,6 @@ for t in range(1, T+1):
     result = set() # set자료형으로 중복 제거
     for i in range(4):
         for j in range(4):
-            dfs(s=str(arr[i][j]),x=i, y=j)
+            dfs(str(arr[i][j]),i, j)
     # print(sorted(list(result)))
     print(len(result))
