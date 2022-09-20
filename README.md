@@ -269,12 +269,12 @@
 [[Baekjoon] No.7568](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/7568_%EB%8D%A9%EC%B9%98.py)  
 
 [2022/08/30]  
-[[Django] 1. intro](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%201.%20intro.md)
+[[Django] 1. intro](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%201.%20intro.md)  
 [[Baekjoon] No.11651](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/11651_%EC%A2%8C%ED%91%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%202.py)  
 [[Baekjoon] No.15829](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/15829_Hashing.py)  
 
 [2022/08/31]  
-[[Django] 2. model](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%202.%20model.md)
+[[Django] 2. model](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%202.%20model.md)  
 [[Baekjoon] No.18111](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%202/18111_%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8.py)  
 
 [2022/09/01]  
@@ -282,10 +282,10 @@
 [[Baekjoon] No.1012](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1012_%EC%9C%A0%EA%B8%B0%EB%86%8D%20%EB%B0%B0%EC%B6%94.py)  
 
 [2022/09/02]  
-[[Django] 2. model](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%202.%20model.md)
+[[Django] 2. model](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%202.%20model.md)  
 
 [2022/09/03]  
-[[LeetCode] No.726](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)
+[[LeetCode] No.726](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)  
 
 [2022/09/04]  
 [[Baekjoon] No.1074](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1074_Z.py)  
@@ -294,34 +294,34 @@
 [[Baekjoon] No.1260](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1260_DFS%EC%99%80%20BFS.py)  
 
 [2022/09/06]  
-[[Django] 3. form](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%203.%20Form.md)
+[[Django] 3. form](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%203.%20Form.md)  
 
 [2022/09/07]  
-[[LeetCode] No.17](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)
+[[LeetCode] No.17](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)  
 
 [2022/09/08]  
-[[LeetCode] No.200](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)
+[[LeetCode] No.200](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%5BLeetCode%20726%EB%B2%88%5D%20Number%20of%20Atoms.py)  
 
 [2022/09/09]  
-[[LeetCode] No.46](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2046%EB%B2%88%5D%20Permutations.py)
+[[LeetCode] No.46](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2046%EB%B2%88%5D%20Permutations.py)  
 
 [2022/09/10]  
-[[LeetCode] No.77](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2077%EB%B2%88%5D%20Combinations.py)
-[[Django] 4. Authentication_System](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%204.%20Authentication_System.md)
+[[LeetCode] No.77](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2077%EB%B2%88%5D%20Combinations.py)  
+[[Django] 4. Authentication_System](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%204.%20Authentication_System.md)  
 
 [2022/09/11]  
-[[LeetCode] No.39](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2039%EB%B2%88%5D%20Combination%20Sum.py)
-[[LeetCode] No.78](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2078%EB%B2%88%5D%20Subsets.py)
+[[LeetCode] No.39](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2039%EB%B2%88%5D%20Combination%20Sum.py)  
+[[LeetCode] No.78](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%2078%EB%B2%88%5D%20Subsets.py)  
 
 [2022/09/12]  
-[[LeetCode] No.332](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%20332%EB%B2%88%5D%20Reconstruct%20Itinerary.py)
+[[LeetCode] No.332](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%20332%EB%B2%88%5D%20Reconstruct%20Itinerary.py)  
 
 [2022/09/13]  
-[[Algorithm] 10. 트리](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2010.%20%ED%8A%B8%EB%A6%AC.md)
+[[Algorithm] 10. 트리](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2010.%20%ED%8A%B8%EB%A6%AC.md)  
 [[Baekjoon] No.1107](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%ED%81%B4%EB%9E%98%EC%8A%A4/class%203/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8.py)  
 
 [2022/09/14]  
-[[Django] 5. HTTP & Cookie](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%205.%20HTTP%20%26%20Cookie.md)
+[[Django] 5. HTTP & Cookie](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%205.%20HTTP%20%26%20Cookie.md)  
 [[Django] 6. Login](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%206.%20Login.md)
 [[SWEA] No.2819](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/2819_%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%20%EC%88%AB%EC%9E%90%20%EC%9D%B4%EC%96%B4%20%EB%B6%99%EC%9D%B4%EA%B8%B0.py)  
 
@@ -331,8 +331,8 @@
 [[SWEA] No.5174](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5174_subtree.py)  
 [[SWEA] No.5176](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5176_%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.py)  
 [[SWEA] No.5177](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5177_%EC%9D%B4%EC%A7%84%20%ED%9E%99.py)  
-[[SWEA] No.5178](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5178_%EB%85%B8%EB%93%9C%EC%9D%98%20%ED%95%A9.py)  
-[[LeetCode] No.207](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%20207%EB%B2%88%5D%20Course%20Schedule.py)
+[[SWEA] No.5178](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5178_%EB%85%B8%EB%93%9C%EC%9D%98%20%ED%95%A9.py)   
+[[LeetCode] No.207](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EA%B7%B8%EB%9E%98%ED%94%84/%5BLeetCode%20207%EB%B2%88%5D%20Course%20Schedule.py)  
 
 [2022/09/16]  
 [[SWEA] No.1238](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/1238_Contact.py)  
@@ -341,27 +341,28 @@
 [[SWEA] No.1953](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/1953_%ED%83%88%EC%A3%BC%EB%B2%94%20%EA%B2%80%EA%B1%B0.py)  
 [[SWEA] No.4012](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/4012_%EC%9A%94%EB%A6%AC%EC%82%AC.py)  
 [[SWEA] No.5688](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5688_%EC%84%B8%EC%A0%9C%EA%B3%B1%EA%B7%BC%EC%9D%84%20%EC%B0%BE%EC%95%84%EB%9D%BC.py)  
-[[LeetCode] No.743](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/%5BLeetCode%20743%EB%B2%88%5D%20Network%20Delay%20Time.py)
+[[LeetCode] No.743](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/%5BLeetCode%20743%EB%B2%88%5D%20Network%20Delay%20Time.py)  
 
 [2022/09/17]  
-[[LeetCode] No.743](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/%5BLeetCode%20787%EB%B2%88%5D%20Cheapest%20Flights%20Within%20K%20Stops.py)
+[[LeetCode] No.743](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/%5BLeetCode%20787%EB%B2%88%5D%20Cheapest%20Flights%20Within%20K%20Stops.py)  
 
 [2022/09/18]  
-[[LeetCode] No.104](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20104%EB%B2%88%5D%20Maximum%20Depth%20of%20Binary%20Tree.py)
+[[LeetCode] No.104](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20104%EB%B2%88%5D%20Maximum%20Depth%20of%20Binary%20Tree.py)  
 
 [2022/09/19]  
 [[SWEA] No.1240](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/1240_%EB%8B%A8%EC%88%9C%202%EC%A7%84%20%EC%95%94%ED%98%B8%20%EC%BD%94%EB%93%9C.py)  
 
 [2022/09/20]  
-[[Django] 7. Logout](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%207.%20Logout.md)
-[[Django] 8. SignUp](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%208.%20SignUp.md)
-[[Django] 9. ResignMember](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%209.%20ResginMember.md)
-[[Django] 10. UserUpdate](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2010.%20UserUpdate.md)
-[[Django] 11. ChangePassword](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2011.%20ChangePassword.md)
-[[SWEA] No.1242](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D5/1242_%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C%20%EC%8A%A4%EC%BA%94.py)
-[[SWEA] No.2105](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/2105_%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B9%B4%ED%8E%98.py)
+[[Django] 7. Logout](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%207.%20Logout.md)  
+[[Django] 8. SignUp](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%208.%20SignUp.md)  
+[[Django] 9. ResignMember](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%209.%20ResginMember.md)  
+[[Django] 10. UserUpdate](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2010.%20UserUpdate.md)  
+[[Django] 11. ChangePassword](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2011.%20ChangePassword.md)  
+[[SWEA] No.1242](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D5/1242_%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C%20%EC%8A%A4%EC%BA%94.py)  
+[[SWEA] No.2105](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/2105_%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B9%B4%ED%8E%98.py)  
 [[SWEA] No.4366](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/4366_%EC%A0%95%EC%8B%9D%EC%9D%B4%EC%9D%98%20%EC%9D%80%ED%96%89%EC%97%85%EB%AC%B4.py)  
-[[SWEA] No.5185](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5185_%EC%9D%B4%EC%A7%84%EC%88%98.py)  
-[[SWEA] No.5186](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5186_%EC%9D%B4%EC%A7%84%EC%88%982.py)
+[[SWEA] No.5185](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5185_%EC%9D%B4%EC%A7%84%EC%88%98.py)    
+[[SWEA] No.5186](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D2/5186_%EC%9D%B4%EC%A7%84%EC%88%982.py)  
+[[Programmers] 신고 결과 받기](https://github.com/junhong625/TIL/blob/master/Algorithm/Programmers/%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5BProgrammers%5D%20%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0.py)
 
 
