@@ -1,5 +1,5 @@
 class Solution:
-    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+    def diameterOfBinaryTree(self, root) -> int:
         if not root or (not root.left and not root.right): # root가 없거나 양쪽 노드가 존재하지 않을 경우 바로 0을 반환하며 종료
             return 0
         
