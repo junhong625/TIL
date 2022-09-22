@@ -25,7 +25,7 @@ def solution(n, k):
                 if nums[int(i)]:
                     answer += 1
     return answer
-
+1111111111111
 s = ''
 s = s.split('0')
 for i in s:
