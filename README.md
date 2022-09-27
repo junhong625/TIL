@@ -389,3 +389,10 @@
 [[LeetCode] No.110](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20110%EB%B2%88%5D%20Balaced%20Binary%20Tree.py)  
 [[LeetCode] No.226](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20226%EB%B2%88%5D%20Invert%20Binary%20Tree.py)  
 [[LeetCode] No.617](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20617%EB%B2%88%5D%20Merge%20Two%20Binary%20Trees.py)  
+
+[2022/09/27]  
+[[SWEA] No.1865](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/1865_%EB%8F%99%EC%B2%A0%EC%9D%B4%EC%9D%98%20%EC%9D%BC%20%EB%B6%84%EB%B0%B0.py)  
+[[SWEA] No.5205](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5205_%ED%80%B5%20%EC%A0%95%EB%A0%AC.py)  
+[[SWEA] No.5207](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5207_%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89.py)  
+[[SWEA] No.5208](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5208_%EC%A0%84%EA%B8%B0%EB%B2%84%EC%8A%A42.py)  
+[[SWEA] No.5209](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5209_%EC%B5%9C%EC%86%8C%20%EC%83%9D%EC%82%B0%20%EB%B9%84%EC%9A%A9.py)  
