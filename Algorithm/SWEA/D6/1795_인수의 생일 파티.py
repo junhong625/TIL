@@ -1,7 +1,7 @@
 import sys
 
 sys.stdin = open('Algorithm/SWEA/D6/input.txt', 'r')
-
+ 
 ## 최단 경로 탐색 함수
 def dijkstra(s, adjList):                           # s : 시작 지점, adjList : 함수 내에서 사용할 인접리스트
     min_DIS = [float('inf') for _ in range(N+1)]    # 각 노드까지의 최단 경로가 저장될 리스트
