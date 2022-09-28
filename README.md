@@ -402,3 +402,8 @@
 
 [2022/09/28]  
 [[SWEA] No.1795](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D6/1795_%EC%9D%B8%EC%88%98%EC%9D%98%20%EC%83%9D%EC%9D%BC%20%ED%8C%8C%ED%8B%B0.py)  
+[[SWEA] No.5247](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D4/5247_%EC%97%B0%EC%82%B0.py)  
+[[Algorithm] 14. 그래프](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2014.%20%EA%B7%B8%EB%9E%98%ED%94%84.md)  
+[[Algorithm] 15. 서로소 집합(Disjoint-sets)](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2015.%20%EC%84%9C%EB%A1%9C%EC%86%8C%20%EC%A7%91%ED%95%A9(Disjoint-sets).md)  
+[[Algorithm] 16. 최소 신장 트리(MST)](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2016.%20%EC%B5%9C%EC%86%8C%20%EC%8B%A0%EC%9E%A5%20%ED%8A%B8%EB%A6%AC(MST).md)  
+[[Algorithm] 17. 최단 경로(Dijkstra)](https://github.com/junhong625/TIL/blob/master/Study/Algorithm/%5BAlgorithm%5D%2017.%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C(Dijkstra).md)  
