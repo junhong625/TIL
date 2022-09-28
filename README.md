@@ -395,6 +395,10 @@
 [[SWEA] No.5205](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5205_%ED%80%B5%20%EC%A0%95%EB%A0%AC.py)  
 
 [2022/09/27]  
+[[SWEA] No.1267](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D6/1267_%EC%9E%91%EC%97%85%EC%88%9C%EC%84%9C.py)  
 [[SWEA] No.5207](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5207_%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89.py)  
 [[SWEA] No.5208](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5208_%EC%A0%84%EA%B8%B0%EB%B2%84%EC%8A%A42.py)  
 [[SWEA] No.5209](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/5209_%EC%B5%9C%EC%86%8C%20%EC%83%9D%EC%82%B0%20%EB%B9%84%EC%9A%A9.py)  
+
+[2022/09/28]  
+[[SWEA] No.1795](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D6/1795_%EC%9D%B8%EC%88%98%EC%9D%98%20%EC%83%9D%EC%9D%BC%20%ED%8C%8C%ED%8B%B0.py)  
