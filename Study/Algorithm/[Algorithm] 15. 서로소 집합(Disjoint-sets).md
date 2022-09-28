@@ -102,5 +102,5 @@ for u, v, w in edges:
         total += w
         if cnt == N - 1:
             break
-print(total)
-```
+print(total) 
+``` 

@@ -55,4 +55,4 @@ for _ in range(E):
 	adjM[v][u] = w                       # 가중치가 있는 무방향 그래프
 
 prim(0, 6)
-```
+``` 

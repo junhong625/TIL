@@ -66,4 +66,4 @@ for t in range(1, T+1):
     for i in range(N):                      # 가장 오래 걸리는 시간 탐색
         maxV = max(maxV, result[i] + result2[i])
     print(f'#{t} {maxV}')
-```
+``` 
