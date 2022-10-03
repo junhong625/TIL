@@ -420,3 +420,16 @@
 [[SWEA] No.2806](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/D3/2806_N-Queen.py)  
 [[SWEA] No.2115](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/2115_%EB%B2%8C%EA%BF%80%EC%B1%84%EC%B7%A8.py)  
 [[SWEA] No.5648](https://github.com/junhong625/TIL/blob/master/Algorithm/SWEA/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8/5648_%EC%9B%90%EC%9E%90%20%EC%86%8C%EB%A9%B8%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98.py)  
+
+[2022/10/01]  
+[[LeetCode] No.108](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20108%EB%B2%88%5D%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py)  
+
+[2022/10/02]  
+[[LeetCode] No.938](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20938%EB%B2%88%5D%20Range%20Sum%20of%20BST.py)  
+
+[2022/10/03]  
+[[LeetCode] No.1038](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%201038%EB%B2%88%5D%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.py)  
+
+
+
+
