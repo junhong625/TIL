@@ -430,8 +430,9 @@
 [2022/10/03]  
 [[LeetCode] No.1038](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%201038%EB%B2%88%5D%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.py)  
 
-[2022/10/04]
+[2022/10/04]  
 [[DB] 1. SQL](https://github.com/junhong625/TIL/blob/master/Study/DB/%5BDB%5D%201.%20SQL.md)  
+[[Baekjoon] No.16236](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%9D%BC%EB%B0%98%20%EB%AC%B8%EC%A0%9C/16236_%EC%95%84%EA%B8%B0%20%EC%83%81%EC%96%B4.py)
 
 
 
