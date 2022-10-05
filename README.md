@@ -434,5 +434,10 @@
 [[DB] 1. SQL](https://github.com/junhong625/TIL/blob/master/Study/DB/%5BDB%5D%201.%20SQL.md)  
 [[Baekjoon] No.16236](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%9D%BC%EB%B0%98%20%EB%AC%B8%EC%A0%9C/16236_%EC%95%84%EA%B8%B0%20%EC%83%81%EC%96%B4.py)
 
+[2022/10/05]  
+[[Django] 12. Model Relationships 1-1](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2012.%20Model%20Relationships%201-1.md)  
+[[Django] 13. Model Relationships 1-2](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2013.%20Model%20Relationships%201-2.md)  
+[[Django] 14. Model Relationships 1-3](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2014.%20Model%20Relationships%201-3.md)  
+[[Django] 15. Model Relationships 1-4](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2015.%20Model%20Relationships%201-4.md)  
 
 
