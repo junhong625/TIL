@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card m-auto my-5 d-flex flex-column align-items-center w-50 rounded-5">
+        <img src="{{ movie.poster_url }}" class="card-img-top rounded-5" alt="{{ movie.title }} 포스터">
+        <div class="card-body">
+          <h5 class="card-title text-center">{{ movie.title }}</h5>
+        </div>
+        <div class="d-flex flex-column w-100">
+            <div class="d-flex">
+                <p class="col-4 border-end text-center">관객</p><p class="px-4">{{ movie.audience }} 명</p>
+            </div>
+            <div class="d-flex">
+                <p class="col-4 border-end text-center">장르</p><p class="px-4">{{ movie.genre }}</p>
+            </div>
+            <div class="d-flex">
+                <p class="col-4 border-end text-center">평점</p><p class="px-4">{{ movie.score }}</p>
+            </div>
+            <div class="d-flex">
+                <p class="col-4 border-end text-center">설명</p><p class="px-4">{{ movie.description }}</p>
+            </div>
+        </div>
+    </div>
+    <div class='my-3 d-flex justify-content-end'>
+        <a class="btn btn-warning" href="{% url 'movies:update' movie.pk%}">수정</a>
+        <form action="{% url 'movies:delete' movie.pk %}" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="삭제" class="btn btn-warning mx-3">
+        </form>
+        <a class="btn btn-warning" href="{% url 'movies:index' %}">뒤로</a>
+    </div>
+{% endblock content %}

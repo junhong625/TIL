@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form class="my-3" action="{% url 'movies:create' %}" method="POST">
+    {% csrf_token %}
+    {% for f in form %}
+        <label class="col-4 form-label mt-3">
+            <b>{{ f.label }}</b>
+        </label>
+        {{ f }}
+    {% endfor %}
+    <div class='my-3 d-flex justify-content-end'>
+        <input class="btn btn-warning mx-3" type="submit" value="완료">
+        <a class="btn btn-warning" href="{% url 'movies:index' %}">뒤로</a>
+    </div>
+</form>
+{% endblock content %}

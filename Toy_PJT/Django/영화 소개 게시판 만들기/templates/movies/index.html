@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+        <div class="d-flex justify-content-end my-3">
+            <a class="btn btn-warning" href="{% url 'movies:create' %}">생성</a>
+        </div>
+        <div class="px-5 mx-5">
+            <hr>
+            {% for movie in movies %}
+            <div class="d-flex border rounded-4 p-3">
+                <div class="d-flex flex-column w-100">
+                    <div class="d-flex">
+                        <p class="col-2 border-end text-center">제목</p><b><a class="px-5 text-decoration-none text-dark" href="{% url 'movies:detail' movie.pk %}">{{ movie.title }}</a></b>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col-2 border-end text-center">장르</p><p class="px-5">{{ movie.genre }}</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="col-2 border-end text-center">평점</p><p class="px-5">{{ movie.score }}</p>
+                    </div>
+                </div>
+                <div><img src="{{ movie.poster_url }}" alt="{{ movie.title }} 포스터" style="width:150px; height:150px;" class="me-5 rounded-4"></div>
+            </div>
+            <hr>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
