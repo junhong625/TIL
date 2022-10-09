@@ -440,4 +440,11 @@
 [[Django] 14. Model Relationships 1-3](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2014.%20Model%20Relationships%201-3.md)  
 [[Django] 15. Model Relationships 1-4](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2015.%20Model%20Relationships%201-4.md)  
 
+[2022/10/06]  
+[[LeetCode] No.105](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20105%EB%B2%88%5D%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.py)  
 
+[2022/10/07]  
+[[Toy_PJT]영화 소개 게시판 만들기](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Django/%EC%98%81%ED%99%94%20%EC%86%8C%EA%B0%9C%20%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)  
+
+[2022/10/06]  
+[[LeetCode] No.297](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20297%EB%B2%88%5D%20Serialize%20and%20Deserialize%20Binary%20Tree.py)  
