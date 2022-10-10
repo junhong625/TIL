@@ -448,3 +448,9 @@
 
 [2022/10/08]  
 [[LeetCode] No.297](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20297%EB%B2%88%5D%20Serialize%20and%20Deserialize%20Binary%20Tree.py)  
+
+[2022/10/09]  
+[[LeetCode] No.148](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%A0%95%EB%A0%AC/%5BLeetCode%20148%EB%B2%88%5D%20Sort%20List.py)  
+
+[2022/10/10]  
+[[LeetCode] No.56](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%A0%95%EB%A0%AC/%5BLeetCode%2056%EB%B2%88%5D%20Merge%20Intervals.py)  
