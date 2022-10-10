@@ -446,5 +446,5 @@
 [2022/10/07]  
 [[Toy_PJT]영화 소개 게시판 만들기](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Django/%EC%98%81%ED%99%94%20%EC%86%8C%EA%B0%9C%20%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)  
 
-[2022/10/06]  
+[2022/10/08]  
 [[LeetCode] No.297](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20297%EB%B2%88%5D%20Serialize%20and%20Deserialize%20Binary%20Tree.py)  
