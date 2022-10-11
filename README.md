@@ -454,3 +454,34 @@
 
 [2022/10/10]  
 [[LeetCode] No.56](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%A0%95%EB%A0%AC/%5BLeetCode%2056%EB%B2%88%5D%20Merge%20Intervals.py)  
+
+[2022/10/10]  
+[[Django] 16. Static files](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2016.%20Static%20files.md)  
+[[Django] 17. Image Upload](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2017.%20Image%20Upload.md)  
+[[Django] 18. Image Update](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2018.%20Image%20Update.md)  
+[[DB] 2. QuerySet API 응용](https://github.com/junhong625/TIL/blob/master/Study/DB/%5BDB%5D%202.%20Qeury%20Set%20API%20%EC%9D%91%EC%9A%A9.md)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
