@@ -1,4 +1,4 @@
-# N : 1 (Article - User)
+2# N : 1 (Article - User)
 
 > Article(N) 모델과 User(1) 모델 간 관계 설정
 > 
