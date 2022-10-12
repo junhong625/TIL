@@ -431,14 +431,14 @@
 [[LeetCode] No.1038](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%201038%EB%B2%88%5D%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.py)  
 
 [2022/10/04]  
-[[DB] 1. SQL](https://github.com/junhong625/TIL/blob/master/Study/DB/%5BDB%5D%201.%20SQL.md)  
+[[DB] 1. SQL](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%201.%20SQL.md)  
 [[Baekjoon] No.16236](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%9D%BC%EB%B0%98%20%EB%AC%B8%EC%A0%9C/16236_%EC%95%84%EA%B8%B0%20%EC%83%81%EC%96%B4.py)
 
 [2022/10/05]  
-[[Django] 12. Model Relationships 1-1](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2012.%20Model%20Relationships%201-1.md)  
-[[Django] 13. Model Relationships 1-2](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2013.%20Model%20Relationships%201-2.md)  
-[[Django] 14. Model Relationships 1-3](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2014.%20Model%20Relationships%201-3.md)  
-[[Django] 15. Model Relationships 1-4](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2015.%20Model%20Relationships%201-4.md)  
+[[DB] 3. Model Relationships 1-1](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%203.%20Model%20Relationships%201-1.md)  
+[[DB] 4. Model Relationships 1-2](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%204.%20Model%20Relationships%201-2.md)  
+[[DB] 5. Model Relationships 1-3](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%205.%20Model%20Relationships%201-3.md)  
+[[DB] 6. Model Relationships 1-4](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%206.%20Model%20Relationships%201-4.md)  
 
 [2022/10/06]  
 [[LeetCode] No.105](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20105%EB%B2%88%5D%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.py)  
@@ -455,12 +455,17 @@
 [2022/10/10]  
 [[LeetCode] No.56](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%A0%95%EB%A0%AC/%5BLeetCode%2056%EB%B2%88%5D%20Merge%20Intervals.py)  
 
-[2022/10/10]  
-[[Django] 16. Static files](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2016.%20Static%20files.md)  
-[[Django] 17. Image Upload](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2017.%20Image%20Upload.md)  
-[[Django] 18. Image Update](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2018.%20Image%20Update.md)  
-[[DB] 2. QuerySet API 응용](https://github.com/junhong625/TIL/blob/master/Study/DB/%5BDB%5D%202.%20Qeury%20Set%20API%20%EC%9D%91%EC%9A%A9.md)  
+[2022/10/11]  
+[[Django] 12. Static files](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2012.%20Static%20files.md)  
+[[Django] 13. Image Upload](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2013.%20Image%20Upload.md)  
+[[Django] 14. Image Update](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2014.%20Image%20Update.md)  
+[[DB] 2. QuerySet API 응용](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%202.%20Qeury%20Set%20API%20%EC%9D%91%EC%9A%A9.md)  
 
+[2022/10/12]  
+[[DB] 7. Many to Many Relationships](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%207.%20Many%20to%20Many%20Relationships.md)  
+[[DB] 8. M&N Relationships](https://github.com/junhong625/TIL/blob/master/Study/Django/DB/%5BDB%5D%208.%20M%26N%20Relationships.md)  
+[[Django] 15. Django_fixtures](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2015.%20Django_fixtures.md)  
+[[LeetCode] No.147](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%A0%95%EB%A0%AC/%5BLeetCode%20147%EB%B2%88%5D%20Insertion%20Sort%20List.py)  
 
 
 
