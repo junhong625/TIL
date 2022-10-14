@@ -5,7 +5,7 @@ from django.contrib.auth import logout as user_logout
 from django.contrib.auth.forms import AuthenticationForm
 from .forms import CustomUserCreationForm
 from .models import User
-
+ 
 # Create your views here.
 def profile(request, username):
     User = get_user_model()
