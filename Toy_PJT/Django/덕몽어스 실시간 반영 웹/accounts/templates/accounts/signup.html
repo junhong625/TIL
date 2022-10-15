@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{% url 'accounts:signup' %}" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form-control my-3">
+    {% for f in form %}
+    {% if f.name == 'username' %}
+        <div class="d-flex">
+            <p class="col-5">이름</p>
+            <p class="col-5">{{ f }}</p><hr>
+        </div>
+        {% elif f.name == 'password1' %}
+        <div class="d-flex">
+            <p class="col-5">비밀번호</p>
+            <p class="col-5">{{ f }}</p><hr>
+        </div>
+        {% elif f.name == 'password2' %}
+        <div class="d-flex">
+            <p class="col-5">비밀번호 확인</p>
+            <p class="col-5">{{ f }}</p><hr>
+        </div>
+        {% else %}
+        <div class="d-flex">
+            <p class="col-5">이미지 선택</p>
+            <p class="col-5">{{ f }}</p><hr>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <div>
+        <input class="btn btn-warning" type="submit" value="회원가입">
+        <a class="btn btn-warning" href="{% url 'accounts:index' %}">뒤로가기</a>
+    </div>
+</form>    
+
+{% endblock content %}

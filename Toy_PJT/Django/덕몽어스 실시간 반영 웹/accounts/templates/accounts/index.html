@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="m-auto d-flex row container">
+    {% if users %}
+    {% for u in users %}
+    {% if not u.is_superuser %}
+    <div class="card m-5 rounded-3 p-0 border border-warning border-5" style="width: 18rem;">
+        <img src="{{ u.image.url }}" class="card-img-top rounded-5 w-100 h-100" alt="{{ u}}의 기본 이미지">
+        <div class="card-body">
+            <a class="text-decoration-none text-dark btn btn-warning w-100" href="{% url 'accounts:profile' u.username%}"><b class="card-title">{{ u }}</b></a>
+            <hr>
+            <div class="d-flex flex-column align-items-around">
+                <p class="my-2">팔로워 : {{ u.followers.all|length }}명</p>
+                <p class="my-2">팔로잉 : {{ u.followings.count }}명</p>
+            </div>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex">
+                <p class="col-2 my-2">승리</p>
+                <p class="col-1 my-2"> : </p>
+                <p class="col-1 my-2">{{ u.win_cnt }}</p>
+            </li>
+            <li class="list-group-item d-flex">
+                <p class="col-2 my-2">패배</p>
+                <p class="col-1 my-2"> : </p>
+                <p class="col-1 my-2">{{ u.lose_cnt }}</p>
+            </li>
+            <li class="list-group-item d-flex">
+                <p class="col-2 my-2">킬</p>
+                <p class="col-1 my-2"> : </p>
+                <p class="col-1 my-2">{{ u.kill_cnt }}</p>
+            </li>
+        </ul>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% else %}
+    <h3>현재 유저가 없습니다.</h3>
+    {% endif %}
+</div>
+<nav class="nav flex-column position-fixed end-0 top-50 translate-middle">
+    <ol class="form-control text-center m-0 border border-danger border-5 rounded-0"><b>Ranking</b></ol>
+    {% for u in users|dictsortreversed:"win_cnt" %}
+        {% if not u.is_superuser %}
+            <li>
+                <a class="form-control text-decoration-none text-center rounded-0" href="{% url 'accounts:profile' u.username %}">
+                    {{ forloop.counter }}위 {{ u.username }}({{ u.win_cnt }}점)
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</nav>
+{% endblock content %}

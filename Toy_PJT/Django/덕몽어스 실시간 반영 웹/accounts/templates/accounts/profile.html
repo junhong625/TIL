@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex flex-column">
+<div class="card m-5" style="width: 18rem;">
+    <img src="{{ person.image.url }}" class="card-img-top" alt="{{ person }}의 기본 이미지">
+    <div class="card-body">
+        <b class="btn btn-warning card-title w-100"><b>{{ person }}</b></b>
+        <hr>
+        <div class="d-flex align-items-center justify-content-around">
+            <div class="d-flex flex-column">
+                <p class="my-2">팔로워 : {{ person.followers.all|length }}명</p>
+                <p class="my-2">팔로잉 : {{ person.followings.count }}명</p>
+            </div>
+            <form action="{% url 'accounts:follow' person.pk %}" method="POST">
+                {% csrf_token %}
+                {% if person != user %}
+                {% if request.user in person.followings.all %}
+                <input class="btn btn-warning" type="submit" value="팔로우 해제">
+                {% else %}
+                <input class="btn btn-warning" type="submit" value="팔로우">
+                {% endif %}
+                {% endif %}
+            </form>
+        </div>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex">
+            <p class="col-2 my-2">승리</p>
+            <p class="col-1 my-2"> : </p>
+            <p class="col-1 my-2">{{ person.win_cnt }}</p>
+            {% if person == user or user.is_superuser %}
+            <a class="btn btn-info ms-2" style="width:40px; height:40px;" href="{% url 'accounts:plus' person.pk "win" %}">+</a>
+            <a class="btn btn-danger ms-2" style="width:40px; height:40px;" href="{% url 'accounts:minus' person.pk "win" %}">-</a>
+            <a class="btn btn-warning ms-2" style="width:40px; height:40px;" href="{% url 'accounts:reset' person.pk "win" %}">c</a>
+            {% endif %}
+        </li>
+        <li class="list-group-item d-flex">
+            <p class="col-2 my-2">패배</p>
+            <p class="col-1 my-2"> : </p>
+            <p class="col-1 my-2">{{ person.lose_cnt }}</p>
+            {% if person == user or user.is_superuser %}
+            <a class="btn btn-info ms-2" style="width:40px; height:40px;" href="{% url 'accounts:plus' person.pk "lose" %}">+</a>
+            <a class="btn btn-danger ms-2" style="width:40px; height:40px;" href="{% url 'accounts:minus' person.pk "lose" %}">-</a>
+            <a class="btn btn-warning ms-2" style="width:40px; height:40px;" href="{% url 'accounts:reset' person.pk "lose" %}">c</a>
+            {% endif %}
+        </li>
+        <li class="list-group-item d-flex">
+            <p class="col-2 my-2">킬</p>
+            <p class="col-1 my-2"> : </p>
+            <p class="col-1 my-2">{{ person.kill_cnt }}</p>
+            {% if person == user or user.is_superuser %}
+            <a class="btn btn-info ms-2" style="width:40px; height:40px;" href="{% url 'accounts:plus' person.pk "kill" %}">+</a>
+            <a class="btn btn-danger ms-2" style="width:40px; height:40px;" href="{% url 'accounts:minus' person.pk "kill" %}">-</a>
+            <a class="btn btn-warning ms-2" style="width:40px; height:40px;" href="{% url 'accounts:reset' person.pk "kill" %}">c</a>
+            {% endif %}
+        </li>
+    </ul>
+</div>
+<a class="btn btn-warning" href="{% url 'accounts:index' %}">뒤로가기</a>
+</div>
+{% endblock content %}

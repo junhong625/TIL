@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{% url 'accounts:login' %}" method="POST">
+    {% csrf_token %}
+    <p>{{ form.as_p }}</p>
+    <input class="btn btn-warning" type="submit" value="로그인">
+    <a class="btn btn-warning" href="{% url 'accounts:index' %}">뒤로가기</a>
+</form>
+{% endblock content %}
