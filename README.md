@@ -476,6 +476,8 @@
 [[LeetCode] No.783](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%8A%B8%EB%A6%AC/%5BLeetCode%20783%EB%B2%88%5D%20Minimun%20Distance%20Between%20BST%20Nodes.py)  
 
 [2022/10/16]  
+[[Baekjoon] No.14426](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%9D%BC%EB%B0%98%20%EB%AC%B8%EC%A0%9C/16236_%EC%95%84%EA%B8%B0%20%EC%83%81%EC%96%B4.py)
+
 
 [2022/10/17]  
 [[JavaScript] 1. JavaScript 기초 (1)](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%201.%20JavaScript%20%EA%B8%B0%EC%B4%88%20(1).md)  
