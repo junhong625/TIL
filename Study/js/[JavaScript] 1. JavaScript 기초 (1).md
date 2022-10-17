@@ -581,4 +581,4 @@ const numbers = [0, 1, 2, 3]
 for (const number of numbers) {
   console.log(number) // 0, 1, 2, 3
 }
-```
+``` 
