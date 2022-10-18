@@ -467,6 +467,10 @@
 [[Django] 15. Django_fixtures](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2015.%20Django_fixtures.md)  
 [[LeetCode] No.147](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%A0%95%EB%A0%AC/%5BLeetCode%20147%EB%B2%88%5D%20Insertion%20Sort%20List.py)  
 
+[2022/10/18]  
+[[Django] 16. REST_API](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2016.%20REST%20API.md)  
+[[Django] 17. REST - N:1 Relation](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2017.%20REST%20-%20N-1%20Relation.md)  
+[[Django] 18. shortcuts functions](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2018.%20shortcuts_functions.md)  
 
 
 
