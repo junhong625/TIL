@@ -1,6 +1,6 @@
 # Django_shortcuts functions
 
-> `django.sourcuts` 패키지에서 개발에 도움 될 수 있는 여러 함수와 클래스 사용 가능
+> `django.shortcuts` 패키지에서 개발에 도움 될 수 있는 여러 함수와 클래스 사용 가능
 > 
 - 제공되는 shortcuts 목록
     - `render()`, `redirect()`, `get_object_or_404()`, `get_list_or_404()`
