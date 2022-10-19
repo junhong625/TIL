@@ -639,4 +639,4 @@ console.log(Object.getOwnPropertyDescriptors([1, 2, 3]))
 //     '2': { value: 3, writable: true, enumerable: true, configurable: true },
 //     length: { value: 3, writable: true, enumerable: false, configurable: false }
 // }
-```
+``` 
