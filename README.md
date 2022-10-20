@@ -508,6 +508,9 @@
 [[JavaScript] 5. Axios](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%205.%20Axios.md)  
 [[JavaScript] 6. Callback과 Promise](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%206.%20Callback%EA%B3%BC%20Promise.md)  
 
+[2022/10/27]  
+
+
 
 
 
