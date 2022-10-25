@@ -484,12 +484,19 @@
 [[Django] 17. REST - N:1 Relation](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2017.%20REST%20-%20N-1%20Relation.md)  
 [[Django] 18. shortcuts functions](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2018.%20shortcuts_functions.md)  
 
+[2022/10/19]  
 
+[2022/10/20]  
 
+[2022/10/21]  
 
+[2022/10/22]  
 
+[2022/10/23]  
 
+[2022/10/24]  
 
+[2022/10/25]  
 
 
 
