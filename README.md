@@ -478,6 +478,7 @@
 [2022/10/16]  
 
 [2022/10/17]  
+[[JavaScript] 1. JavaScript 기초 (1)](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%201.%20JavaScript%20%EA%B8%B0%EC%B4%88%20(1).md)  
 
 [2022/10/18]  
 [[Django] 16. REST_API](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2016.%20REST%20API.md)  
@@ -485,6 +486,7 @@
 [[Django] 18. shortcuts functions](https://github.com/junhong625/TIL/blob/master/Study/Django/%5BDjango%5D%2018.%20shortcuts_functions.md)  
 
 [2022/10/19]  
+[[JavaScript] 2. JavaScript 기초 (2)](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%202.%20JavaScript%20%EA%B8%B0%EC%B4%88%20(2).md)  
 
 [2022/10/20]  
 
@@ -495,9 +497,9 @@
 [2022/10/23]  
 
 [2022/10/24]  
+[[JavaScript] 3. JavaScript 심화](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%203.%20JavaScript%20%EC%8B%AC%ED%99%94.md)  
 
 [2022/10/25]  
-
 
 
 
