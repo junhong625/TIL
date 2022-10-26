@@ -478,7 +478,6 @@
 [2022/10/16]  
 [[Baekjoon] No.14426](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%9D%BC%EB%B0%98%20%EB%AC%B8%EC%A0%9C/16236_%EC%95%84%EA%B8%B0%20%EC%83%81%EC%96%B4.py)
 
-
 [2022/10/17]  
 [[JavaScript] 1. JavaScript 기초 (1)](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%201.%20JavaScript%20%EA%B8%B0%EC%B4%88%20(1).md)  
 
@@ -502,6 +501,12 @@
 [[JavaScript] 3. JavaScript 심화](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%203.%20JavaScript%20%EC%8B%AC%ED%99%94.md)  
 
 [2022/10/25]  
+[[LeetCode] No.208](https://github.com/junhong625/MOCOCO/blob/master/%5B10%EC%A3%BC%EC%B0%A8%5D%20%ED%9E%99%2C%20%ED%8A%B8%EB%9D%BC%EC%9D%B4/%5BLeetCode%20208%EB%B2%88%5D%20Implement%20Trie(Prefix%20Tree)/%EC%95%88%EC%A4%80%ED%99%8D.py)  
+
+[2022/10/26]  
+[[JavaScript] 4. 동기와 비동기](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%204.%20%EB%8F%99%EA%B8%B0%EC%99%80%20%EB%B9%84%EB%8F%99%EA%B8%B0.md)  
+[[JavaScript] 5. Axios](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%205.%20Axios.md)  
+[[JavaScript] 6. Callback과 Promise](https://github.com/junhong625/TIL/blob/master/Study/js/%5BJavaScript%5D%206.%20Callback%EA%B3%BC%20Promise.md)  
 
 
 
