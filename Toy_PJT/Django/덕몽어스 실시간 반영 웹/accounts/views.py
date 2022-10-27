@@ -1,15 +1,15 @@
-from django.shortcuts import render, redirect
+from django.http.response import JsonResponse
 from django.contrib.auth import get_user_model
 from django.contrib.auth import login as user_login
 from django.contrib.auth import logout as user_logout
 from django.contrib.auth.forms import AuthenticationForm
+from django.shortcuts import render, redirect, get_list_or_404, get_object_or_404
 from .forms import CustomUserCreationForm
 from .models import User
  
 # Create your views here.
 def profile(request, username):
-    User = get_user_model()
-    person = User.objects.get(username=username)
+    person = get_object_or_404(get_user_model(), username=username)
     context = {
         'person':person
     }
@@ -49,7 +49,7 @@ def logout(request):
     return redirect('accounts:index')
 
 def index(request):
-    users = User.objects.all()
+    users = get_list_or_404(get_user_model())
     context = {
         'users':users
     }
@@ -57,14 +57,19 @@ def index(request):
 
 def follow(request, user_pk):
     if request.user.is_authenticated:
-        User = get_user_model()
         me = request.user
-        you = User.objects.get(pk=user_pk)
+        you = get_object_or_404(get_user_model(), pk=user_pk)
         if me != you:
             if you.followings.filter(pk=me.pk).exists():
                 you.followings.remove(me)
+                is_liked = False
             else:
                 you.followings.add(me)
+                is_liked = True
+            context = {
+                'is_liked': is_liked
+            }
+            return JsonResponse(context)
         return redirect('accounts:profile', you.username)
     return redirect('accounts:login')
 

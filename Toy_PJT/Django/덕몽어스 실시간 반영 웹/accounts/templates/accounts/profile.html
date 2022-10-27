@@ -16,9 +16,9 @@
                 {% csrf_token %}
                 {% if person != user %}
                 {% if request.user in person.followings.all %}
-                <input class="btn btn-warning" type="submit" value="팔로우 해제">
+                <input class="btn btn-warning" type="submit" value="팔로우 해제" id="unfollow">
                 {% else %}
-                <input class="btn btn-warning" type="submit" value="팔로우">
+                <input class="btn btn-warning" type="submit" value="팔로우" id="follow">
                 {% endif %}
                 {% endif %}
             </form>
@@ -59,4 +59,10 @@
 </div>
 <a class="btn btn-warning" href="{% url 'accounts:index' %}">뒤로가기</a>
 </div>
+{% block script %}
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    const forms = document.querySelector
+</script>
+{% endblock script %}
 {% endblock content %}
