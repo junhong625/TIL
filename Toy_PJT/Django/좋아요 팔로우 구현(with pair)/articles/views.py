@@ -1,6 +1,7 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404, get_list_or_404
 from django.views.decorators.http import require_http_methods, require_POST, require_safe
 from django.contrib.auth.decorators import login_required
+from django.http import JsonResponse
 # from django.http import HttpResponse, HttpResponseForbidden
 from .models import Article, Comment
 from .forms import ArticleForm, CommentForm
@@ -9,7 +10,7 @@ from .forms import ArticleForm, CommentForm
 # Create your views here.
 @require_safe
 def index(request):
-    articles = Article.objects.all()
+    articles = get_list_or_404(Article)
     context = {
         'articles': articles,
     }
@@ -36,7 +37,7 @@ def create(request):
 
 @require_safe
 def detail(request, pk):
-    article = Article.objects.get(pk=pk)
+    article = get_object_or_404(Article, pk=pk)
     comment_form = CommentForm()
     comments = article.comment_set.all()
     context = {
@@ -49,7 +50,7 @@ def detail(request, pk):
 
 @require_POST
 def delete(request, pk):
-    article = Article.objects.get(pk=pk)
+    article = get_object_or_404(Article, pk=pk)
     if request.user.is_authenticated:
         if request.user == article.user:
             article.delete()
@@ -70,7 +71,7 @@ def delete(request, pk):
 @login_required
 @require_http_methods(['GET', 'POST'])
 def update(request, pk):
-    article = Article.objects.get(pk=pk)
+    article = get_object_or_404(Article, pk=pk)
     if request.user == article.user:
         if request.method == 'POST':
             form = ArticleForm(request.POST, instance=article)
@@ -91,7 +92,7 @@ def update(request, pk):
 @require_POST
 def comments_create(request, pk):
     if request.user.is_authenticated:
-        article = Article.objects.get(pk=pk)
+        article = get_object_or_404(Article, pk=pk)
         comment_form = CommentForm(request.POST)
         if comment_form.is_valid():
             comment = comment_form.save(commit=False)
@@ -114,11 +115,18 @@ def comments_delete(request, article_pk, comment_pk):
 @require_POST
 def likes(request, article_pk):
     if request.user.is_authenticated:
-        article = Article.objects.get(pk=article_pk)
+        article = get_object_or_404(Article, pk=article_pk)
         if article.like_users.filter(pk=request.user.pk).exists():
             article.like_users.remove(request.user)
+            like_article = False
         else:
             article.like_users.add(request.user)
-        return redirect('articles:index')
+            like_article = True
+        likes_cnt = article.like_users.count()
+        context = {
+            'like_article':like_article,
+            'likes_cnt':likes_cnt,
+        }
+        return JsonResponse(context)
     return redirect('accounts:login')
     
