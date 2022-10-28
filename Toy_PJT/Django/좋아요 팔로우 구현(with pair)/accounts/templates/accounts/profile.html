@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ person.username }}님의 프로필</h1>
+  <div>
+    팔로워 : {{ person.followers.all|length }} / 팔로잉 : {{ person.followings.all|length }}
+  </div>
+
+  {% if request.user != person %}
+  <div>
+    <form id="follow form" data-user-id = {{ person.id }}>
+      {% csrf_token %}
+      {% if request.user in person.followers.all %}
+        <input type="submit" value="언팔로우">
+      {% else %}
+        <input type="submit" value="팔로우">
+      {% endif %}
+    </form>
+  <div>
+  {% endif %}
+
+  <h2>{{ person.username }}이 작성한 모든 게시글</h2>
+  {% for article in person.article_set.all %}
+    <div>{{ article.title }}</div>
+  {% endfor %}
+
+  <hr>
+
+  <h2>{{ person.username }}이 작성한 모든 댓글</h2>
+  {% for comment in person.comment_set.all %}
+    <div>{{ comment.content }}</div>
+  {% endfor %}
+
+  <hr>
+
+  <h2>{{ person.username }}이 좋아요 한 모든 게시글</h2>
+  {% for article in person.like_articles.all %}
+    <div>{{ article.title }}</div>
+  {% endfor %}
+
+  <a href="{% url 'articles:index' %}">back</a>
+{% endblock content %}
+{% block script %}
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  const followform = document.querySelector('#follow_form')
+  const csrf_token = document.querySelector('[name=csrfmiddlewaretoken]').value
+
+  followform.addEventListener('submit', function(event) {
+    // console.log(event)
+    event.preventDefault()
+    const userId = event.target.dataset.userId
+    // console.log(userId)
+
+    axios({
+      method: 'POST',
+      // url: 'accounts/'+userId+'/follow',
+      url: 'accounts/'${userId}'/follow',
+      header: {'X-CSRFToken', csrfToken},
+    })
+    .then(response -> {
+      console.log(userId)
+      const isFollowed = response.data.is_followed
+      const followBtn = document.querySelector('#follow-from > input[type=submit]')
+      if (isFollowed === true){
+        followBtn.value = '언팔로우'
+      }else {
+        followBtn.value = '팔로우'
+      }
+    })
+  })
+</script>
+{% endblock script %}
