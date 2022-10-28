@@ -8,7 +8,7 @@
 
   {% if request.user != person %}
   <div>
-    <form id="follow form" data-user-id = {{ person.id }}>
+    <form action="{% url 'accounts:follow' person.pk %}" method="POST">
       {% csrf_token %}
       {% if request.user in person.followers.all %}
         <input type="submit" value="언팔로우">
@@ -40,34 +40,3 @@
 
   <a href="{% url 'articles:index' %}">back</a>
 {% endblock content %}
-{% block script %}
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script>
-  const followform = document.querySelector('#follow_form')
-  const csrf_token = document.querySelector('[name=csrfmiddlewaretoken]').value
-
-  followform.addEventListener('submit', function(event) {
-    // console.log(event)
-    event.preventDefault()
-    const userId = event.target.dataset.userId
-    // console.log(userId)
-
-    axios({
-      method: 'POST',
-      // url: 'accounts/'+userId+'/follow',
-      url: 'accounts/'${userId}'/follow',
-      header: {'X-CSRFToken', csrfToken},
-    })
-    .then(response -> {
-      console.log(userId)
-      const isFollowed = response.data.is_followed
-      const followBtn = document.querySelector('#follow-from > input[type=submit]')
-      if (isFollowed === true){
-        followBtn.value = '언팔로우'
-      }else {
-        followBtn.value = '팔로우'
-      }
-    })
-  })
-</script>
-{% endblock script %}
