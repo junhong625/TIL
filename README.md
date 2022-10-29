@@ -511,6 +511,12 @@
 
 [2022/10/27]  
 
+[2022/10/28]  
+[[Toy_PJT] 좋아요 팔로우 구현(with pair)](https://github.com/junhong625/TIL/tree/master/Toy_PJT/Django/%EC%A2%8B%EC%95%84%EC%9A%94%20%ED%8C%94%EB%A1%9C%EC%9A%B0%20%EA%B5%AC%ED%98%84(with%20pair))  
+
+[2022/10/29]  
+[[LeetCode] No.215](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%ED%9E%99%2C%20%ED%8A%B8%EB%9D%BC%EC%9D%B4/%5BLeetCode%20215%EB%B2%88%5D%20Kth%20Largest%20Elements%20in%20an%20Array.py)  
+
 
 
 
