@@ -542,6 +542,12 @@
 [2022/11/06]  
 [[Baekjoon] No.14888](https://github.com/junhong625/TIL/blob/master/Algorithm/Baekjoon/%EC%9D%BC%EB%B0%98%20%EB%AC%B8%EC%A0%9C/14888_%EC%97%B0%EC%82%B0%EC%9E%90%20%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0.py)  
 
+[2022/11/07]  
+[[Vue] 5. Vuex](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%205.%20Vuex.md)  
+[[Vue] 6. Lifecycle Hooks](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%206.%20Lifecycle%20Hooks.md)  
+[[Vue] 7. Todo with Vuex (1)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%207.%20Todo%20with%20Vuex%20(1).md)  
+[[Vue] 8. Todo with Vuex (2)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%208.%20Todo%20with%20Vuex(2).md)  
+[[Vue] 9. Local Storage](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%209.%20Local%20Storage.md)  
 
 
 
