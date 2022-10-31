@@ -4,10 +4,13 @@ from django.contrib.auth import login as user_login
 from django.contrib.auth import logout as user_logout
 from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import render, redirect, get_list_or_404, get_object_or_404
+from rest_framework.decorators import api_view
+from django.contrib.auth.decorators import login_required
 from .forms import CustomUserCreationForm
 from .models import User
  
 # Create your views here.
+@api_view(['GET'])
 def profile(request, username):
     person = get_object_or_404(get_user_model(), username=username)
     context = {
@@ -15,6 +18,7 @@ def profile(request, username):
     }
     return render(request, 'accounts/profile.html', context)
 
+@api_view(['GET', 'POST'])
 def signup(request):
     if request.method == 'POST':
         form = CustomUserCreationForm(request.POST, request.FILES)
@@ -24,13 +28,14 @@ def signup(request):
             user.save()
             user_login(request, user)
             return redirect('accounts:index')
-    else:
+    elif request.method == 'GET':
         form = CustomUserCreationForm()
     context = {
         'form':form
     }
     return render(request, 'accounts/signup.html', context)
 
+@api_view(['POST', 'GET'])
 def login(request):
     if request.method == 'POST':
         form = AuthenticationForm(request, request.POST)
@@ -44,10 +49,12 @@ def login(request):
     }
     return render(request, 'accounts/login.html', context)
 
+@api_view(['POST'])
 def logout(request):
     user_logout(request)
     return redirect('accounts:index')
 
+@api_view(['GET'])
 def index(request):
     users = get_list_or_404(get_user_model())
     for i in range(len(users)):
@@ -59,6 +66,7 @@ def index(request):
     }
     return render(request, 'accounts/index.html', context)
 
+@api_view(['POST'])
 def follow(request, user_pk):
     if request.user.is_authenticated:
         me = request.user
@@ -70,13 +78,15 @@ def follow(request, user_pk):
             else:
                 you.followings.add(me)
                 is_liked = True
-            context = {
-                'is_liked': is_liked
-            }
-            return JsonResponse(context)
+            # context = {
+            #     'is_liked': is_liked
+            # }
+            # return JsonResponse(context)
         return redirect('accounts:profile', you.username)
     return redirect('accounts:login')
 
+@login_required
+@api_view(['GET'])
 def plus(request, user_pk, target):
     User = get_user_model()
     person = User.objects.get(pk=user_pk)
@@ -89,6 +99,8 @@ def plus(request, user_pk, target):
     person.save()
     return redirect('accounts:profile', person.username)
 
+@login_required
+@api_view(['GET'])
 def minus(request, user_pk, target):
     User = get_user_model()
     person = User.objects.get(pk=user_pk)
@@ -104,6 +116,8 @@ def minus(request, user_pk, target):
     person.save()
     return redirect('accounts:profile', person.username)
 
+@login_required
+@api_view(['GET'])
 def reset(request, user_pk, target):
     User = get_user_model()
     person = User.objects.get(pk=user_pk)
