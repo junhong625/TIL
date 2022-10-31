@@ -50,6 +50,10 @@ def logout(request):
 
 def index(request):
     users = get_list_or_404(get_user_model())
+    for i in range(len(users)):
+        if str(users[i]) == 'admin':
+            users.pop(i)
+            break
     context = {
         'users':users
     }
