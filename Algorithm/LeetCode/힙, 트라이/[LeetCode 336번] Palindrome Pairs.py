@@ -1,28 +1,21 @@
 class Solution:
     def palindromePairs(self, words: List[str]) -> List[List[int]]:
         result = []
-        
-        def dfs(idx=0):
-            if idx == len(words):
-                return
-            
-            for i in range(idx+1, len(words)):
-                if not words[idx]:
-                    if words[i] == words[i][::-1]:
-                        nonlocal result
-                        result.extend([[idx, i], [i, idx]])    
-                elif not words[i]:
-                    if words[idx] == words[idx][::-1]:
-                        result.extend([[idx, i], [i, idx]])
-                else:                
-                    if words[idx][0] == words[i][-1]:
-                        new_word = words[idx] + words[i]
-                        if new_word == new_word[::-1]:
-                            result.append([idx, i])
-                    if words[i][0] == words[idx][-1]:
-                        new_word = words[i] + words[idx]
-                        if new_word == new_word[::-1]:
-                            result.append([i, idx])
-            dfs(idx+1)
-        dfs()
+        new_words = {val:idx for idx, val in enumerate(words)}
+        for word in new_words:
+            for i in range(len(word)):
+                target = word[:i][::-1]
+                target2 = word[-i:][::-1]
+                if word != target:
+                    new_word = word + target
+                    if new_word == new_word[::-1] and target in new_words:
+                        if target == '':
+                            result.append([new_words[target], new_words[word]])
+                        result.append([new_words[word], new_words[target]])
+                if word != target2:
+                    new_word = target2 + word
+                    if new_word == new_word[::-1] and target2 in new_words:
+                        if target2 == '':
+                            result.append([new_words[word], new_words[target2]])
+                        result.append([new_words[target2], new_words[word]])
         return result
