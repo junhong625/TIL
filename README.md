@@ -536,6 +536,8 @@
 [2022/11/04]  
 [[LeetCode] No.76](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%94%A9%20%EC%9C%88%EB%8F%84%EC%9A%B0/%5BLeetCode%2076%EB%B2%88%5D%20Minimum%20Window%20Substring.py)  
 
+[2022/11/05]  
+[[LeetCode] No.424](https://github.com/junhong625/TIL/blob/master/Algorithm/LeetCode/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%94%A9%20%EC%9C%88%EB%8F%84%EC%9A%B0/%5BLeetCode%20424%EB%B2%88%5D%20Longest%20Repeating%20Character%20Replacement.py)  
 
 
 
