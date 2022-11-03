@@ -530,6 +530,8 @@
 [2022/11/02]  
 [[Vue] 3. Vue CLI](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%203.%20Vue%20CLI.md)  
 
+[2022/11/03]  
+[[Vue] 4. Pass Props & Emit Events](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%204.%20Pass%20Props%20%26%20Emit%20Events.md.md)  
 
 
 
