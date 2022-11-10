@@ -549,7 +549,17 @@
 [[Vue] 8. Todo with Vuex (2)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%208.%20Todo%20with%20Vuex(2).md)  
 [[Vue] 9. Local Storage](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%209.%20Local%20Storage.md)  
 
+[2022/11/08]  
 
+[2022/11/09]  
+[[Vue] 10. UX & UI](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2010.%20UX%20%26%20UI.md)  
+[[Vue] 11. Routing](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2011.%20Routing.md)  
+[[Vue] 12. Navigation Guard](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2012.%20Navigation%20Guard.md)  
+[[Vue] 13. Articles with Vue(Index)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2012.%20Navigation%20Guard.md)  
+[[Vue] 14. Articles with Vue(Create)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2014.%20Articles%20with%20Vue(Create).md)  
+[[Vue] 15. Articles with Vue(Detail)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2015.%20Articles%20with%20Vue(Detail).md)  
+[[Vue] 16. Articles with Vue(Delete)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2016.%20Articles%20with%20Vue(Detail).md)  
+[[Vue] 17. Articles with Vue(404 Not Found)](https://github.com/junhong625/TIL/blob/master/Study/Vue/%5BVue%5D%2017.%20Articles%20with%20Vue(404%20Not%20Found).md)  
 
 
 
