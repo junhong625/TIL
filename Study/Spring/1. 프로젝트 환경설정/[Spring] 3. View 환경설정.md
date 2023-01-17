@@ -23,7 +23,7 @@ Hello
 
 ### 동적 파일 활용
 
-`[package]/controller/HelloController`
+`{package}/controller/HelloController`
 
 ```java
 package hello.hellospring.controller;
@@ -43,9 +43,9 @@ public class HelloController {
 }
 ```
 
-- @Controller : Controller의 기능을 데코레이터로 부여
-- @GetMapping(”??”) : `localhost:8080/` 뒤에 ??가 붙어 url 세팅(API)
-- model.addAttribute(key, value) : return 값에 설정된 String을 이름으로 가진 `resources/templates/`내에 존재한 html로 전달 →  html에서 key로 호출
+- **@Controller** : Controller의 기능을 데코레이터로 부여
+- **@GetMapping(”??”)** : `localhost:8080/` 뒤에 ??가 붙어 url 세팅(API)
+- **model.addAttribute(key, value)** : return 값에 설정된 String을 이름으로 가진 `resources/templates/`내에 존재한 html로 전달 →  html에서 key로 호출
 
 `resources/templates/hello.html`
 
@@ -63,4 +63,4 @@ public class HelloController {
 ```
 
 - `<html xmlns:th="http://www.thymeleaf.org">` : thymeleaf 템플릿 엔진 사용
-- data : controller에서 전달한 인자의 key
+- **data** : controller에서 전달한 인자의 key

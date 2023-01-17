@@ -20,12 +20,6 @@
 @Controller
 public class HelloController {
 
-    @GetMapping("hello")
-    public String hello(Model model) {
-        model.addAttribute("data", "spring!!");
-        return "hello";
-    }
-
     @GetMapping("hello-mvc")
     public String helloMvc(@RequestParam("name") String name, Model model) {
         model.addAttribute("name", name);
@@ -33,3 +27,25 @@ public class HelloController {
     }
 }
 ```
+
+- **@RequestParam(html파일에서 사용할 변수명) 데이터타입 변수**
+- **model.addAttribute(key, value)** : return 값에 설정된 String을 이름으로 가진 `resources/templates/`내에 존재한 html로 전달 →  html에서 key로 호출
+
+### View
+
+`resources/templates/{name}.html`
+
+```html
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+</body>
+</html>
+```
+
+- **${name}** : url에서 요청하면 컨트롤러에서 받아들여 view로 전달해줄 데이터
+
+### 웹에서 요청
+
+- **http://localhost:8080/{Controller의 GetMapping에 적용된 이름}?{RequestParam에 세팅된 변수명}={사용자 입력}**
+- **{RequestParam에 세팅된 변수명}={사용자 입력}** 미입력시 오류 발생
