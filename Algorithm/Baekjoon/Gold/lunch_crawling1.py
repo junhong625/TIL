@@ -28,8 +28,9 @@ cookies = {
 # res['data']['mealList'][idx]['sumFat'] : idx번 메뉴 칼로리
 # res['data']['mealList'][idx]['sumProtein'] : idx번 메뉴 칼로리
 res = requests.get(url, cookies=cookies).json()
-for menu in res['data']['mealList']:
-    print(f"메뉴 : {menu['subMenuTxt']}")
-    print(f"칼로리 : {menu['kcal']}kcal")
-    print(f"성분표 : [나트륨 : {menu['sumNa']}g , 지방 : {menu['sumFat']}g, 단백질 : {menu['sumProtein']}g]")
-    print()
+print(res)
+# for menu in res['data']['mealList']:
+#     print(f"메뉴 : {menu['subMenuTxt']}")
+#     print(f"칼로리 : {menu['kcal']}kcal")
+#     print(f"성분표 : [나트륨 : {menu['sumNa']}g , 지방 : {menu['sumFat']}g, 단백질 : {menu['sumProtein']}g]")
+#     print()
