@@ -6,7 +6,7 @@ import datetime
 
 ## 식단 날짜
 # 년원일 형식
-date = datetime.date.today()
+date = datetime.date(2023, 2, 14)
 week = datetime.datetime.weekday(date)
 while week:
     date = date - datetime.timedelta(days=1)

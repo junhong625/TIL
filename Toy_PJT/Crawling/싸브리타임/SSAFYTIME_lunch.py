@@ -17,7 +17,6 @@ password    = "ssafy"
 db          = "ssafy_web_db"
 charset     = "utf8"
 
-
 @app.route("/lunch_menu", methods=['GET'])
 def lunch_menu_data():
     if request.method == 'GET':
