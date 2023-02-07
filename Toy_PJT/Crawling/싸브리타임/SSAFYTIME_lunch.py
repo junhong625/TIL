@@ -10,8 +10,8 @@ app = Flask(__name__)
 # password  : DB 접속 password
 # db        : 연결할 DB 이름
 # charset   : 문자 인코딩 방식 
-host        = "127.0.0.1"
-port        = 9090
+host        = "i8a602.p.ssafy.io"
+port        = 3306
 user        = "root"
 password    = "ssafy"
 db          = "ssafy_web_db"
@@ -182,7 +182,7 @@ def lunch_menu_data():
                 cur.execute(f"INSERT INTO lunch_menu (date, region, course, main_menu, side_menu, kcal, cho, fat, protein, sodium, image_url) VALUES('{date}', '{region}', '{course}', '{main_menu}', '{side_menu}', '{kcal}', '{cho}', '{fat}', '{protein}', '{sodium}', '{image_url}')")
 
         # DB에 데이터 적용
-        conn.commit()
+        # conn.commit()
         
         return "success Insert Data" ,201
     else:
