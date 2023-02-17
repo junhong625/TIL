@@ -1,10 +1,51 @@
 from flask import Flask, request
-import pymysql, requests, datetime, requests
+import pymysql, requests, datetime, requests, pprint
 from apscheduler.schedulers.background import BackgroundScheduler
+from requests.auth import HTTPBasicAuth
 
 app = Flask(__name__)
 
-## DB 연결을 위한 기본 변수
+
+## get JIRA Issues(GET)
+# name : 사용자 이름
+# email : jira ID
+# token : jira API Token 
+@app.route("/jira/issue", methods=["GET"])
+def get_issues():
+    params = request.get_json()
+    name = params['name']
+    token = params['token']
+    email = params['email']
+
+    if request.method == "GET":
+        jql = f"assignee={name} and status not in (closed, done)" # jql : 담당자가 name이고 상태(status)가 진행 중인 이슈 조회 
+
+        url = f"https://ssafy.atlassian.net/rest/api/3/search"
+
+        auth = HTTPBasicAuth(email, token)  # Basic인증 방식
+
+        headers = {
+        "Accept": "application/json"
+        }
+
+        query = {
+        'jql' : jql
+        }
+
+        result = requests.get(url=url, headers=headers, params=query, auth=auth).json()
+        issues = result['issues']
+        issue_list = []
+
+        # result['issues']['fields']['summary'] : issue name
+        pprint.pprint(result)
+        for issue in issues:
+            issue_list.append(issue['fields']['summary'])
+
+        return {'issue_list':issue_list}
+
+
+## Insert lunch menu to ssaveryTime_DB
+# DB 연결을 위한 기본 변수
 # host      : ip 주소
 # user      : DB 접속 ID
 # password  : DB 접속 password
@@ -20,6 +61,7 @@ charset     = "utf8"
 @app.route("/lunch_menu", methods=['GET'])
 def lunch_menu_data():
     if request.method == 'GET':
+
         conn    = pymysql.connect(host=host, port=port, user=user, password=password, db=db, charset=charset)
         cur     = conn.cursor()
 
@@ -33,14 +75,12 @@ def lunch_menu_data():
         ## 식단 날짜
         # 년원일 형식
         date_data = datetime.date.today()
+        date_data = date_data - datetime.timedelta(days=date_data.weekday()) # 이번주 월요일로 날짜 변경
         weekday = datetime.datetime.weekday(date_data)
-        while weekday:
-            date_data = date_data - datetime.timedelta(days=1)
-            weekday = datetime.datetime.weekday(date_data)
 
         date = str(date_data).split()[0].replace("-", "")
 
-        # 데이터를 수집하는 날짜는 매주 월요일이라고 가정
+        # 데이터를 수집하는 날짜는 매주 월요일
         # 월요일부터 금요일까지의 점심 데이터 수집
         while weekday <= 4:
 
@@ -111,11 +151,14 @@ def lunch_menu_data():
                     # image_url : 메뉴 이미지 URL
 
                     # DB에 데이터 Insert
-                    cur.execute(f"INSERT INTO lunch_menu (date, region, course, main_menu, side_menu, kcal, cho, fat, protein, sodium, image_url) VALUES('{date}', '{region}', '{course}', '{main_menu}', '{side_menu}', '{kcal}', '{cho}', '{fat}', '{protein}', '{sodium}', '{image_url}')")
-
+                    cur.execute(f"SELECT * FROM lunch_menu where date='{date}' and main_menu='{main_menu}' and side_menu='{side_menu}' and region='{region}'")
+                    if (not cur.fetchall()):
+                        cur.execute(f"INSERT INTO lunch_menu (date, region, course, main_menu, side_menu, kcal, cho, fat, protein, sodium, image_url) VALUES('{date}', '{region}', '{course}', '{main_menu}', '{side_menu}', '{kcal}', '{cho}', '{fat}', '{protein}', '{sodium}', '{image_url}')")
+                    else:
+                        return "Duplicate Data", 202
 
             date_data = date_data + datetime.timedelta(days=1)
-            weekday = datetime.datetime.weekday(date_data)
+            weekday = date_data.weekday()
             date = str(date_data).split()[0].replace("-", "")
 
 
@@ -179,21 +222,28 @@ def lunch_menu_data():
                 # image_url : 메뉴 이미지 URL
 
                 # DB에 데이터 Insert
-                cur.execute(f"INSERT INTO lunch_menu (date, region, course, main_menu, side_menu, kcal, cho, fat, protein, sodium, image_url) VALUES('{date}', '{region}', '{course}', '{main_menu}', '{side_menu}', '{kcal}', '{cho}', '{fat}', '{protein}', '{sodium}', '{image_url}')")
-
+                cur.execute(f"SELECT * FROM lunch_menu where date='{date}' and main_menu='{main_menu}' and side_menu='{side_menu}' and region='{region}'")
+                if (not cur.fetchall()):
+                    cur.execute(f"INSERT INTO lunch_menu (date, region, course, main_menu, side_menu, kcal, cho, fat, protein, sodium, image_url) VALUES('{date}', '{region}', '{course}', '{main_menu}', '{side_menu}', '{kcal}', '{cho}', '{fat}', '{protein}', '{sodium}', '{image_url}')")
+                else:
+                    print("Duplicate Data")
+                    return "Duplicate Data", 202
         # DB에 데이터 적용
-        # conn.commit()
-        
-        return "success Insert Data" ,201
-    else:
-        return "fail Insert Data", 401
+        conn.commit()
+        print("Done!")
 
+        print("Success Insert Data")
+        return "Success Insert Data" ,201
+    else:
+        print("Method Not Allowed")
+        return "Method Not Allowed", 405
 
 def lunch_data_crawling():
     print("점심메뉴 크롤링")
     url = "http://127.0.0.1:5000/lunch_menu"
     requests.get(url)
 
+## python scheduler 실행
 scheduler = BackgroundScheduler()
 scheduler.start()
 
@@ -201,4 +251,4 @@ scheduler.start()
 scheduler.add_job(lunch_data_crawling, 'interval', weeks=1, start_date="2023-02-06 00:00:00", timezone="asia/seoul")
 
 if __name__ == '__main__':
-    app.run()
+    app.run() 
